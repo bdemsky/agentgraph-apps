@@ -43,9 +43,9 @@ def compile(scheduler, prompts, filestore, coachconv):
     if p.returncode == 0:
         return True
 
-    agents.scheduler.runPythonAgent(filehelper, pos=[filestore], out=[outVar])
+    scheduler.runPythonAgent(filehelper, pos=[filestore], out=[outVar])
     scheduler.runLLMAgent(outVar, msg = prompts.loadPrompt("programmer.txt") ** ~coachconv & outVar & prompts.loadPrompt("compile.txt", {'error': p.errormsg}))
-    agents.scheduler.runPythonAgent(patchFiles, pos=[prompts, outVar, filestore])
+    scheduler.runPythonAgent(patchFiles, pos=[prompts, outVar, filestore])
     
     return False
 
