@@ -1,0 +1,19 @@
+Here is the current code:
+
+{{files}}
+
+Please provide a script, compile.sh, that includes all the necessary unix
+terminal commands to install dependencies and build the code.
+
+You should assume the system already has the standard set of
+development tools installed (compiler, interpreter, make, etc).
+
+Do not install globally. Do not use sudo.
+
+Do not explain the code, just give the commands.
+
+Do not run the program you build in this script.
+
+Do not use placeholders, use example values (like . for a folder
+argument) if necessary.
+
