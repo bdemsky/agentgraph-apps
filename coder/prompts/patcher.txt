@@ -15,9 +15,10 @@ only combine those two.
 
 **IMPORTANT**
 
-All lines of code in the new implementation should be present. From
-the old implementation, only take the ones that are replaced with the
-comment `[OLD CODE]` in the new implementation
+All lines of code in the new implementation should be present.  Note
+that there may be comments in the new implementation of the file that
+indicates that parts of the original file be inserted where it is
+indicated.
 
 **IMPORTANT**
 

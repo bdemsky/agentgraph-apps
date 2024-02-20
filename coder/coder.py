@@ -22,8 +22,8 @@ class Agent:
 def test():
     agents = Agents("a command line based full featured scientic calculator in C that supports standard feature including trig functions and parenthesis. The calculator should take the problem instance from the command line. You should compile the program such that it can be executed by typing ./calculator.  For example, ./calculator \"sin(90) + 1\" should print 2. \n ./calculator \"3 * (2 + 4)\" should print 18. \n ./calculator \"1/2\" should print 0.5. ./calculator \"1.5 * 2.0\" should print 3.  ./calculator \"2*(1+3*(2-1))\" should print 8.\n")
     varmap = agentgraph.VarMap()
-    agents.programmer = Agent(agents.prompts.loadPrompt("programmer.txt"), varmap.mapToNone("programmer"))
-    agents.coach = Agent(agents.prompts.loadPrompt("coach.txt"), varmap.mapToNone("coach"))
+    agents.programmer = Agent(agents.prompts.loadPrompt("sysprogrammer.txt"), varmap.mapToNone("programmer"))
+    agents.coach = Agent(agents.prompts.loadPrompt("syscoach.txt"), varmap.mapToNone("coach"))
     mainloop(agents)
 
 def buildTests(agents: Agents):
@@ -71,6 +71,7 @@ def runTests(agent:Agents):
 def mainloop(agents):
     # Keep repeating the following
     while True:
+        agents.filestore.waitForAccess()
         # Prompt user for input
         message = input("(Q)uit, (C)ompile, (P)rogram, c(R)eate Tests, run (T)est, (D)ump code, (M)anual request: ")
             # Exit program if user inputs "quit"
@@ -85,16 +86,15 @@ def mainloop(agents):
         elif message.lower() == "t":
             doTests(agents)
         elif message.lower() == "d":
-            dump(agents)
+            dump(agents.filestore)
         elif message.lower() == "m":
             manual(agents)
 
-
-
-
-
     agents.scheduler.shutdown()
 
+def dump(filestore):
+    filestore.writeFiles("./testdir/")
+    
 def compile(scheduler, prompts, filestore, coachconv):
     output = filehelper(scheduler, filestore)[0]
     sysbuildprompt = prompts.loadPrompt("sysbuildeng.txt")
@@ -102,14 +102,14 @@ def compile(scheduler, prompts, filestore, coachconv):
     outVar = agentgraph.Var()
     scheduler.runLLMAgent(outVar, msg = sysbuildprompt ** buildprompt)
     patchFiles(scheduler, prompts, outVar.getValue(), filestore)
-    filestore.writeFiles("./testdir/")
+    dump(filestore)
     p = subprocess.run(["bash", "compile.sh"], cwd = "./testdir/", capture_output=True)
     print(p)
     if p.returncode == 0:
         return True
 
     scheduler.runPythonAgent(filehelper, pos=[filestore], out=[outVar])
-    scheduler.runLLMAgent(outVar, msg = prompts.loadPrompt("programmer.txt") ** ~coachconv & outVar & prompts.loadPrompt("compile.txt", {'error': p.stderr.decode()}))
+    scheduler.runLLMAgent(outVar, msg = prompts.loadPrompt("sysprogrammer.txt") ** ~coachconv & outVar & prompts.loadPrompt("compile.txt", {'error': p.stderr.decode()}))
     scheduler.runPythonAgent(patchFiles, pos=[prompts, outVar, filestore])
     
     return False
@@ -119,17 +119,22 @@ def patchFiles(scheduler, prompts, agentOutput: str, fileStore):
     newFiles = coder.files.parse_chat(agentOutput)
     patchedFiles = dict()
     for file, newContent in newFiles:
+        print(file, newContent)
         if file in fileStore:
             oldContent = fileStore[file]
-            sysMsg = prompts.loadPrompt("syspatcher.txt")
-            patchMsg = prompts.loadPrompt("patcher.txt", {'file_name': file, 'old_contents': oldContent, 'new_contents': newContent})
-            patchedContents = agentgraph.Var("Patched")
-            scheduler.runLLMAgent(patchedContents, msg = sysMsg ** patchMsg)
-            patchedFiles[file] = patchedContents
+            if oldContent != newContent:
+                sysMsg = prompts.loadPrompt("syspatcher.txt")
+                patchMsg = prompts.loadPrompt("patcher.txt", {'file_name': file, 'old_contents': oldContent, 'new_contents': newContent})
+                patchedContents = agentgraph.Var("Patched")
+                scheduler.runLLMAgent(patchedContents, msg = sysMsg ** patchMsg)
+                patchedFiles[file] = patchedContents
         else:
             fileStore[file] = newContent
     for file in patchedFiles:
-        fileStore[file] = patchedFiles[file].getValue()
+        pcontent = patchedFiles[file].getValue()
+        pFiles = coder.files.parse_chat(pcontent)
+        for pfile, pcontent in pFiles:
+            fileStore[pfile] = pcontent
     
 def filehelper(scheduler, filestore):
     filelist = ""
@@ -149,6 +154,7 @@ def doProgram(agents, errorvar):
     
     # query programmer to fix
     agents.scheduler.runLLMAgent(programmer.var, msg = programmer.prompt ** ~coach.conv & fsvar + errorvar)
+
     # Update filestore
     agents.scheduler.runPythonAgent(patchFiles, pos=[agents.prompts, agents.programmer.var, agents.filestore])
 
@@ -157,16 +163,18 @@ def doCoachProgram(agents):
     filestore = agents.filestore
     programmer = agents.programmer
     coach = agents.coach
-    prompt = agents.problem
+    prompt = agents.prompts.loadPrompt("coach.txt", {'problem':agents.problem})
     outvar = agentgraph.Var("filecontents")
     # get files
     agents.scheduler.runPythonAgent(filehelper, pos=[agents.filestore], out=[outvar])
     
     # coach
-    agents.scheduler.runLLMAgent(coach.var, conversation = coach.conv, msg = coach.conv > (coach.prompt ** agents.problem & ~coach.conv & outvar) | coach.prompt ** agents.problem)
+    agents.scheduler.runLLMAgent(coach.var, conversation = coach.conv, msg = coach.conv > (coach.prompt ** prompt & ~coach.conv & outvar) | coach.prompt ** prompt)
 
     # programmer
     agents.scheduler.runLLMAgent(programmer.var, conversation = programmer.conv, msg = programmer.conv > (programmer.prompt ** ~coach.conv[:-1] & outvar & coach.var | programmer.prompt ** coach.var))
+
+    print(programmer.var.getValue())
 
     # Update filestore
     agents.scheduler.runPythonAgent(patchFiles, pos=[agents.prompts, agents.programmer.var, agents.filestore])
