@@ -1,0 +1,30 @@
+Here is some code:
+{{contents}}
+
+For each function, please write a docstring.  Please output them in the following format:
+
+For each function you should give the function name followed by a colon and then the docstring.
+
+For example, given the following input method:
+
+def string_reverse(str1):
+    reverse_str1 = ''
+    i = len(str1)
+    while i > 0:
+        reverse_str1 += str1[i - 1]
+        i = i- 1
+    return reverse_str1
+
+You should output:
+
+string_reverse:
+"""
+Returns the reversed String.
+
+Parameters:
+    str1 (str):The string which is to be reversed.
+
+Returns:
+    reverse(str1):The string which gets reversed.   
+"""
+
