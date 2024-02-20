@@ -1,0 +1,6 @@
+Please write a test script named test.sh for:
+
+{{agentproblem}}
+
+Be sure to add at least 20 test cases including the examples given in
+the problem statement.

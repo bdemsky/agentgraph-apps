@@ -1,0 +1,43 @@
+Provide a file named test.sh that should run the necessary unix
+commands to run all the test cases.  If a test case fails, this script
+should output on standard error which test case failed and details
+about the test case and exit with a non zero exit code.  If all test
+cases ran successfully, it should exit with a zero exit code.
+
+For each failing test case, your test script should output:
+1) The program output to standard output.
+2) The program output to standard error.
+3) The expected value
+
+Note that you can capture both standard output and standard error to a
+variable with the following bash command:
+
+foo = $(./calculator "1+2" 2&>1)"
+
+The script test.sh should also compile your code.  The script should
+be placed in the current directory.  The test script should start with
+basic tests and then move to more complex tests.
+
+You will output the content of each file necessary to run the testing
+script, including ALL code.  Represent files like so:
+
+FILENAME
+```
+CODE
+```
+
+The following tokens must be replaced like so:
+FILENAME is the lowercase file name including the
+file extension
+CODE is the code in the file
+
+Example representation of a file:
+helloworld.sh
+```
+echo "Hello World"
+```
+
+Do not explain the code, just give the commands.
+
+Do not use placeholders, use example values (like . for a folder
+argument) if necessary.
