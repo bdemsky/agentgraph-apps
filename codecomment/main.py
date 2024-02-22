@@ -2,6 +2,7 @@ import agentgraph
 import os
 import sys
 import time
+import agentgraph.config
 from pathlib import Path
 
 def writeData(scheduler, name: str, comments: str):
@@ -38,6 +39,7 @@ class Commenter:
 
 
 def main():
+    agentgraph.config.VERBOSE = 0
     commenter = Commenter()
     commenter.process(sys.argv)
     commenter.scheduler.shutdown() 
