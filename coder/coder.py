@@ -106,7 +106,7 @@ def compile(scheduler, prompts, filestore, coachconv):
     if p.returncode == 0:
         return True
 
-    outVar = scheduler.runPythonAgent(filehelper, pos=[filestore], outTypes = [agentgraph.VarType])
+    outVar = scheduler.runPythonAgent(filehelper, pos=[filestore], numOuts = 1)
     outVar = scheduler.runLLMAgent(msg = prompts.loadPrompt("sysprogrammer.txt") ** ~coachconv & outVar & prompts.loadPrompt("compile.txt", {'error': p.stderr.decode()}))
     scheduler.runPythonAgent(patchFiles, pos=[prompts, outVar, filestore])
     
