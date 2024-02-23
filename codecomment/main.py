@@ -20,6 +20,7 @@ class Commenter:
 
     def process(self, names: list):
         for file in names:
+            print(file)
             self.handleFile(file)
             
     def handleFile(self, name: str):
@@ -33,15 +34,14 @@ class Commenter:
                     pass
         else:
             return
-        var = agentgraph.Var()
-        self.scheduler.runLLMAgent(var, msg = self.sysprompt ** self.prompts.loadPrompt("UserPrompt", {'contents' : content}))
+        var = self.scheduler.runLLMAgent(msg = self.sysprompt ** self.prompts.loadPrompt("UserPrompt", {'contents' : content}))
         self.scheduler.runPythonAgent(writeData, pos=[name, var])
 
 
 def main():
     agentgraph.config.VERBOSE = 0
     commenter = Commenter()
-    commenter.process(sys.argv)
+    commenter.process(sys.argv[1:])
     commenter.scheduler.shutdown() 
 
 if __name__ == "__main__":

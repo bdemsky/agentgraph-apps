@@ -30,8 +30,7 @@ def buildTests(agents: Agents):
     scheduler = agents.scheduler
     sys = agents.prompts.loadPrompt("testeng.txt")
     messages = agents.prompts.loadPrompt("testprompt.txt", { 'agentproblem' : agents.problem})
-    outVar = agentgraph.Var()
-    scheduler.runLLMAgent(outVar, msg = sys ** messages)
+    outVar = scheduler.runLLMAgent(msg = sys ** messages)
     scheduler.runPythonAgent(patchFiles, pos=[agents.prompts, outVar, agents.filestore])
 
 def doTests(agents: Agents):
@@ -99,8 +98,7 @@ def compile(scheduler, prompts, filestore, coachconv):
     output = filehelper(scheduler, filestore)[0]
     sysbuildprompt = prompts.loadPrompt("sysbuildeng.txt")
     buildprompt = prompts.loadPrompt("buildeng.txt", {'files': output})
-    outVar = agentgraph.Var()
-    scheduler.runLLMAgent(outVar, msg = sysbuildprompt ** buildprompt)
+    outVar = scheduler.runLLMAgent(msg = sysbuildprompt ** buildprompt)
     patchFiles(scheduler, prompts, outVar.getValue(), filestore)
     dump(filestore)
     p = subprocess.run(["bash", "compile.sh"], cwd = "./testdir/", capture_output=True)
@@ -108,8 +106,8 @@ def compile(scheduler, prompts, filestore, coachconv):
     if p.returncode == 0:
         return True
 
-    scheduler.runPythonAgent(filehelper, pos=[filestore], out=[outVar])
-    scheduler.runLLMAgent(outVar, msg = prompts.loadPrompt("sysprogrammer.txt") ** ~coachconv & outVar & prompts.loadPrompt("compile.txt", {'error': p.stderr.decode()}))
+    outVar = scheduler.runPythonAgent(filehelper, pos=[filestore], outTypes = [agentgraph.VarType])
+    outVar = scheduler.runLLMAgent(msg = prompts.loadPrompt("sysprogrammer.txt") ** ~coachconv & outVar & prompts.loadPrompt("compile.txt", {'error': p.stderr.decode()}))
     scheduler.runPythonAgent(patchFiles, pos=[prompts, outVar, filestore])
     
     return False
@@ -148,12 +146,11 @@ def doProgram(agents, errorvar):
     programmer = agents.programmer
     coach = agents.coach
     prompt = agents.problem
-    fsvar = agentgraph.Var()
     # get files contents
-    agents.scheduler.runPythonAgent(filehelper, pos=[agents.filestore], out=[fsvar])
+    fsvar = agents.scheduler.runPythonAgent(filehelper, pos=[agents.filestore])
     
     # query programmer to fix
-    agents.scheduler.runLLMAgent(programmer.var, msg = programmer.prompt ** ~coach.conv & fsvar + errorvar)
+    programmer.var = agents.scheduler.runLLMAgent(msg = programmer.prompt ** ~coach.conv & fsvar + errorvar)
 
     # Update filestore
     agents.scheduler.runPythonAgent(patchFiles, pos=[agents.prompts, agents.programmer.var, agents.filestore])
@@ -164,15 +161,14 @@ def doCoachProgram(agents):
     programmer = agents.programmer
     coach = agents.coach
     prompt = agents.prompts.loadPrompt("coach.txt", {'problem':agents.problem})
-    outvar = agentgraph.Var("filecontents")
     # get files
-    agents.scheduler.runPythonAgent(filehelper, pos=[agents.filestore], out=[outvar])
+    outvar = agents.scheduler.runPythonAgent(filehelper, pos=[agents.filestore], out=[agentgraph.VarType])
     
     # coach
-    agents.scheduler.runLLMAgent(coach.var, conversation = coach.conv, msg = coach.conv > (coach.prompt ** prompt & ~coach.conv & outvar) | coach.prompt ** prompt)
+    coach.var = agents.scheduler.runLLMAgent(conversation = coach.conv, msg = coach.conv > (coach.prompt ** prompt & ~coach.conv & outvar) | coach.prompt ** prompt)
 
     # programmer
-    agents.scheduler.runLLMAgent(programmer.var, conversation = programmer.conv, msg = programmer.conv > (programmer.prompt ** ~coach.conv[:-1] & outvar & coach.var | programmer.prompt ** coach.var))
+    programmer.var = agents.scheduler.runLLMAgent(conversation = programmer.conv, msg = programmer.conv > (programmer.prompt ** ~coach.conv[:-1] & outvar & coach.var | programmer.prompt ** coach.var))
 
     print(programmer.var.getValue())
 
