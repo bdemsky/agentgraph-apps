@@ -1,0 +1,76 @@
+
+While it is not a required part of the course, and nothing will be graded in the labs this quarter, attendance does offer some significant benefits:
+
+You will have a chance to consult a TA and one or more LAs regarding your work; this kind of fast feedback and help can be invaluable as you work through your projects.
+You will be surrounded by a large group of other people facing the same problems that you're facing. This kind of shared journey will help you to build a social network that will last you, in some cases, for the rest of your life. Don't squander that opportunity!
+Some of our lab sections are laptop-only sections, which means that there are no computers available for general use except one that you bring for yourself. However, these sections will be staffed with the same personal help available in the others, so if you tend to carry a laptop around with you anyway, you will probably find it at least as comfortable as the alternative.
+
+Staffing in the ICS 32A Help Center will be as follows. The TAs listed for the sections below are the official TAs of record — so, in general, they would be your first point of contact regarding the grading of projects.
+
+
+Ed Discussion
+
+Around the time the quarter officially beings, a course space will be created on Ed Discussion. You'll find a link to Ed Discussion on this course's Canvas page, and officially enrolled students should automatically have access to it once the quarter begins.
+
+Within Ed Discussion, you'll be able to ask us (and each other) questions about course material, and can expect to see both course staff and students answering those questions along the way. It is our hope that this can be a useful resource to you, and the course staff will be glad to be of service there throughout the quarter.
+
+However, it's important to note that Ed Discussion is only a positive and productive tool if students use a certain level of etiquette and care in using it, so we'll be requiring that — and your grade can be negatively affected if you do otherwise. So, what does that mean? It begins with a straightforward guiding principle: When you ask a question on Ed Discussion, you're essentially asking everyone in the course, which means that the question needs to be appropriate for those circumstances. In practice, that means a few things.
+
+Before asking a question, read the course web site thoroughly and make sure it's not a question that's clearly answered there already. In a typical quarter, about a third of the email I get from students are things that are clearly already answered in detail on the course web site; I'd like that ratio to be lower on Ed Discussion, since that's not just a drag on my time and the course staff's time, but, more importantly, is a drag on everyone's time, including other students.
+Before asking a question, use the search box to find existing questions that have already been asked that would already provide your answer. Especially as we get later in a project cycle or nearer to a due date on a reinforcement exercise, many questions will already have been asked and answered; if so, you asking the question again is a drag on everyone's time.
+Do not, under any circumstances, post your solutions — in whole or in part — to projects or reinforcement exercises. Note that there is no size threshold below which you can post your work (e.g., "It was only two lines of code!"); we have a zero-tolerance policy for sharing any part of it. If your question is so specific to your own solution that it can't be asked without divulging the contents of your work, or is mainly your speculation about whether an answer (or part of an answer) might be correct, you'll need to ask the question elsewhere, such as a lab meeting or via email.
+Do not, under any circumstances, speculate on how to solve projects or reinforcement exercises — in whole or in part — and ask us whether your proposed solution is correct or permissible. Not only are we neither willing nor able to pre-grade your work (on or off Ed Discussion), but we are also unwilling to allow students to share their potential solutions with everyone in the course.
+Do not, under any circumstances, ask questions on Ed Discussion about how your work (or others' work) was graded, how your work will be graded, or whether due dates on your work can be adjusted. All inquiries regarding grading, scoring, and due dates must be made directly to the relevant course staff member, via email or in person; we are not willing to spend everyone's time on individual issues like these.
+Ed Discussion is a forum for course-related content, discussing and learning about related things (e.g., aspects of Python not being taught in the course), and getting assistance. It is not a general discussion forum, nor is it a social media platform, so keep the discussion on topic. We are holding you to the standard of treating each other with respect, which importantly includes respecting other people's time (which is why we're forbidding off-topic discussion, self-promotion, and the like). Additionally, we will not tolerate any type of personal attacks, memes, cyber-bullying, negativity, or hurtful behavior.
+Textbooks
+
+This course requires no textbook, as I will be providing a complete set of Notes and Examples covering every lecture this quarter.
+
+Note that you might find a book that complements the lecture material and helps you fill in details that you missed while listening to me speak for eighty minutes, though I think the Notes and Examples section will generally be enough information for you to succeed. If you prefer a book (or online supplements of your own choosing) other than what I'm providing, that's generally fine, though do be aware that style and approach among practitioners of a programming language tend to differ, particularly with respect to a language with the long and varied history of Python. We'll be expecting you to follow similar conventions to those we're learning about in this course.
+
+Additionally, one of the main skills you'll be building in this course, aside from broadening and strengthening your Python programming skills, is the ability to find, analyze, and synthesize information in online documentation, tutorials, and other materials that make libraries — not just those that are included with Python, but also those that are obtained from third parties — accessible to you and useful in solving real programming problems. To that extent, the Internet will serve as a significant "textbook" for us, as well. (Be aware, though, that this does not include using solutions to these projects written by previous students, nor to the use of generative AI; see the section titled Academic honesty below for more details.)
+
+Accommodations for disabilities
+
+Any students who feel that they may need an accommodation based on the impact of a disability should contact me privately to discuss these specific needs. Also, contact the Disability Services Center online or by phone at (949) 824-7494 as soon as possible to better ensure that such accommodations, such as alternative test-taking environments or note-taking services, can be arranged for you in a timely way.
+
+Grading
+
+Weights of graded artifacts
+
+Your course grade will be determined from the weighted combination of your scores on each of seven programming projects, eight sets of reinforcement exercises, and an in-person Final Exam. The weights of each of these are:
+
+Two warm-up projects (Project 0A and Project 0B), 6% (weighted equally at 3% each)
+Five projects, 40% (weighted equally at 8% each)
+Eight sets of reinforcement exercises, 16% (weighted equally at 2% each)
+Final Exam, 38%
+Exam attendance policy
+
+Your attendance at the Final Exam on the scheduled date and time is a required part of your enrollment in this course. You will find that date and time listed in the Schedule.
+
+Verify at the start of the quarter that you'll be able to attend the exam as scheduled and, if not, you'll need to find another course to enroll in. Once you remain enrolled in this course, you've made a commitment to attend the exam as scheduled, and we will not, under any circumstances, schedule a Final Exam at a different time to accommodate a scheduling conflict, regardless of whether you were aware of it ahead of time. It is your responsibility to keep your schedule clear, and to arrive at the exam on time and ready to put in your best effort; it is similarly your responsibility to take the necessary precautions to reduce the chances of illness. Your score on an unattended Final Exam is zero, with your grade calculated accordingly.
+
+The only exception to this policy is a documented illness or incapacitation, where, to be clear, the documentation must come from a position of authority — a doctor, a police department, campus authorities, or the like — and clarify why it was not possible for you to attend the exam as scheduled. Things like photographs of in-home medical testing kits or emails from family members or friends do not constitute documentation under this policy.
+
+Online participation and decorum
+
+While it is not our intent to measure your participation — in the sense that we won't be tracking whether you're attending the lectures, watching pre-recorded videos (if any), attending the lab sessions, and so on — we are requiring that students meet the decorum requirements described above. We reserve the right to deduct as much as 10% from a student's grade when their behavior does not follow those decorum requirements, with repeated or severe violations warranting larger-sized deductions. My sincere hope is that no one will receive these deductions, but we do reserve the right to use them if need be.
+
+(Note, too, that you'll be notified as soon as we've decided that you'll be receiving one of these deductions, so you don't need to worry that we'll suddenly be reducing your score at the end of the quarter unannounced.)
+
+Determining final grades
+
+Course grades will be determined neither on a normal curve nor a straight scale. It is guaranteed that overall scores over 90% will receive an A- or better, scores over 80% will receive a B- or better, and scores over 70% will receive a C or better. However, the actual cutoffs may be lowered at the end of the quarter. In short, it is not my intention to fail half of the students, nor am I planning on giving only 2% of the students A's, but I prefer not to constrain myself with either a straight scale or a formalized curve.
+
+Unforeseen circumstances may lead to changes
+
+This course has been designed specifically for in-person delivery, in a way that takes into account the potential for some uncertainty along the way. While we'll certainly do our best to leave these policies — as well as the general structure of this course — intact, it is possible that unforeseen circumstances may require us to make modifications along the way. If so, we'll make those modifications in a way that attempts to preserve the spirit of the course and its grading to the extent possible, and we'll notify everyone of any necessary changes as soon as we can, but will not be willing to engage in an individual or group negotiation about the changes made.
+
+Dropping the course or changing grade option
+
+Through the end of Week 2 (Friday, October 13), you may drop the course by simply going to WebReg and dropping it. If you wish to drop the course after that date, you will need to use the Enrollment Exceptions system to request a drop; I do not have the final say over those, ultimately, as the Dean of the Bren School (and your major, if you are majoring in something outside of the Bren School) must approve them. It is not generally the case that an exception will be accepted simply because you're not doing well in a course, though extenuating circumstances are certainly considered.
+
+Similarly, changing your grade option (to Pass/NotPass or back again) can be done via WebReg through the end of Week 2 (Friday, October 13), after which you must use the Enrollment Exceptions system to request the change. As with exceptional drops, you must receive approval from the appropriate Deans, and that approval is not guaranteed, and I do not have any influence over them.
+
+Enrolling in the course after it begins
+

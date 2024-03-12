@@ -1,0 +1,39 @@
+Here is an email:
+{{contents}}
+
+From this email, determine the name of the course the student is inquiring about. Also, determine what the student is inquring about.
+
+Here is a list of courses I teach: 
+{% for course in courses %}
+    - {{ course }}
+{% endfor %}
+
+{% for course in courses %}
+    If this email is related to my {{course}} course, please output the following and only the following: "CLASS*{{course}}"
+{% endfor %}
+
+Format your ouput like:
+"CLASS*[course name]"
+
+Only output a line like that and nothing else.
+
+The course name should be in the list I provided, this is very important. 
+
+For example, for the following email:
+
+To: professoremail@mail.com
+From: studentemail@mail.com
+Subject: ICS32A: Grading Policy Concern
+Body:
+Hi Professor:
+
+My name is Peter Anteater and I am in your ICS32A course. I unfortunately did not do as well as I had hoped on the Final, and I am now concerned about the grade I will recieve in the course. I was just curious, how much does my grade on the final affect my overall course grade?
+
+Thank you,
+Peter Anteater
+
+You would output only the following line in the format I specified. This is very important, do not output anything more than this line: 
+"CLASS*ics32a" 
+
+Notice you only ouput that one line and you ouput a course name that is in the list of courses I provided above. This is very important.
+

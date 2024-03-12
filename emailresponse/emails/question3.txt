@@ -1,0 +1,11 @@
+To: professoremail@mail.com
+From: studentemail@mail.com
+Subject: Paul Ramone - Question About Research Assistant Oppurtunity
+Body:
+Hi Professor:
+
+My name is Paul Ramone and I am in your ICS45C course. I am reaching out to you because I really enjoy your course and especially enjoy learning about the C++ langauge. I really like your teaching style and I was wondering if you had any ongoing research that I could assist you with. 
+
+
+Sincerely,
+Paul Ramone

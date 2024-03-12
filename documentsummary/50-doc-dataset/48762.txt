@@ -1,0 +1,108 @@
+Or
+
+A First Venue of Excuses, Denials, and Disclaimers.
+
+Let me say at the outset that those who expect this complete audio
+rendering of Gibbon's historical and literary masterpiece to be
+an epitome of perfect, pear-shaped, dropped -"r" Oxbridge English
+may be disappointed.  I believe there is such an "audiobook"
+edition available commercially, but it isn't free.  Experimenting
+some years ago with the text-to-speech software then available, I
+thought it would be very funny, the private joke of a modern American
+barbarian, to have the "little stuffed voices" rendering, in their
+innocent and patient way, the imposing yet effervescent bulk of
+Gibbon's magnificent and immortal marble-pillared prose.  To my
+amazement, if not to the credit of my taste, I've found this shotgun
+wedding of sound and sense quite harmonious, vital, and durable
+through many years of repeated listening.  I find that the voices,
+unembodied and wooden at first audit, but softer, incarnate,
+personalized by acclimatization, pack more expression and clarity
+of diction into a few megabytes of software than is exhibited by
+most humans I hear these days, except for trained entertainment
+professionals and seasoned barroom raconteurs.  I propose that the
+relentless yet measured deadpan delivery, the ironic contrast of
+unwitting voice and worldly wise content, is a plausible fit to the
+objective, slightly distant facade of Gibbon's dense and rational,
+waste-no-word, 18th century style; a foil to his balanced tone,
+restrained despite dudgeon, covering a tale that is, face it, in its
+majority, a mordant chronicle, incarnadined--my favorite period
+bon mot--by battle, gore, and treachery. Of itself Gibbon's voluminous
+tragedy--the framework imposed by historians of his time--allows
+us only the occasional adrenal or comic relief by means of an essay
+on the basics of Roman jurisprudence, the topography of Arabia, or
+the absurdities and impossibilities of early Christian theology,
+not to mention the priceless vituperation against the "Greeks" at
+the end of Chapter 53.
+
+Perhaps the jest went too far.  I wound up producing the entirety
+of the work, consuming much more time and energy than if I, or some
+other carbon-based unit, had simply armed ourselves with microphone
+and recorder, then intrepidly hacked our way toward throat cancer,
+through all 120-odd hours of the reading.  But that's water under
+the bridge.  I took the (immense) trouble to teach the well-meaning
+but naive programs improved pronunciations of over 4.000 words,
+mostly proper names, British spellings, and 18th century archaisms.
+Having some background in Catholic Church Latin, and two years of
+(forced) Latin in high school, but no classical scholar, I can only
+vouch that I did the best I could within my hobbyist limitations.
+In cases of extremely obscure items such as "Goisvintha"--a Gothic
+queen; or "Geougen"--a collective noun, like "herd" or "squad", to
+describe a certain group of Tartaric barbarians, I've settled for
+what sounded, to my part-time poet's ear, euphonious and consistent
+with the flow of the line.  I've heard tapes of classical scholars
+rendering academically correct Latin, but, to venture arrogance,
+neither they nor the Church ever convinced me that anyone except
+prelates, scholars, and perhaps an affected upper crust ever
+actually spoke that way.  How else explain French?  I'd give a lot
+to bounce through Latium once per century from 600 B.C through the
+first millennium of our era in order to hear authentic village or
+"street" Latin.
+
+One notices that at Chapter 39 a different voice takes over through
+to the end of the work.  For this there are two major reasons.
+Firstly, the product of the original voice required some extensive,
+and excruciatingly time-consuming digital audio processing to remove
+crudities of the speech engine, such as a harsh rasp, which even
+yet breaks through on occasion.  Secondly, the production of all
+six volumes occupied the occasional parts of three or four years,
+during which time a much improved speech engine became available.
+Back then I did not envision a public audience for the work, and
+so was not hobbled by considerations of consistency.  The new voice
+was smoother, endowed with a much more "intelligent" engine, AND
+DID NOT CRASH EVERY TWENTY MINUTES!  For those interested, the
+softwares are the two final versions of Monologue, created by First
+Byte Software.  I do not believe it is any more available to the
+market.
+
+There are various types of flaws in this rendering, some correctible,
+some not--at least not very easily or conveniently.  Certain errors
+persist because I recall they exist, but not where.  Now, I don't
+have the time or inclination to reaudit all 120 hours of the reading
+in order to flush them out. You are welcome to try, or even to
+email me, at the address below, their nature and whereabouts.  I
+will collect such reports and maybe someday repair the faults.
+Better yet, do it yourself (See below)!  There are a very, very few
+errors of garbled audio that arose during the conversion to .mp3.
+I do not believe they inhibit understanding of the contextual
+passage.  But once again, you tell me.  Other errors arise because
+the programs were not smart enough to recognize and discriminate
+among some of the tricky ambiguities and homonymic mimeses of
+English. Sometimes "lives" is pronounced incorrectly relative to
+context, noun versus verb.  Other examples in this category are
+"minute", "rebel(s)", "lead", "read", and "present".  There are
+occasional renderings of "...part i" -(roman numeral one) as "...part
+eye".  I tried to eliminate that by reformatting the source text,
+but obviously missed in some cases.  The historian Procopius' name
+is occasionally rendered "Procompanyius" because of an obstinacy
+about expanding abbreviations I could not completely--Gibbon's
+favorite term--extirpate.  In some few other cases there are
+obviously erroneous or awkward pronunciations of words, especially
+of French proper and place names.  Frankly, I'm proud the little
+beasts do as well as they do in the continental tongue.  Let me
+say that although I tried assiduously, and even systematically to
+eliminate errors (having written a program that scanned the source
+text for words "new" to the speech software), the product of
+Gibbon's twenty year labor is in itself an empire of English, in
+which I have yet to travel every byway.  Each successive chapter
+contained literally many hundreds of new words that had not appeared
+even in his own previous chapters!  Finally, some deep errors

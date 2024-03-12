@@ -1,0 +1,78 @@
+
+Grading
+
+Weights of graded artifacts
+
+Your course grade will be determined from the weighted combination of your scores on each of five programming projects, eight sets of reinforcement exercises, and an in-person Final Exam. The weights of each of these are:
+
+One "set-up" project, 2%
+Four projects, 44% (weighted equally at 11% each)
+Eight sets of reinforcement exercises, 24% (weighted equally at 3% each)
+Final Exam, 30%
+Online participation and decorum
+
+While it is not our intent to measure your participation — in the sense that we won't be tracking whether you're attending the lectures, watching pre-recorded videos, attending the lab sessions, and so on — we are requiring that students meet the decorum requirements described above. We reserve the right to deduct as much as 10% from a student's grade when their behavior does not follow those decorum requirements, with repeated or severe violations warranting larger-sized deductions. My sincere hope is that no one will receive these deductions, but we do reserve the right to use them if need be.
+
+(Note, too, that you'll be notified as soon as we've decided that you'll be receiving one of these deductions, so you don't need to worry that we'll suddenly be reducing your score at the end of the quarter unannounced.)
+
+Determining final grades
+
+Course grades will be determined neither on a normal curve nor a straight scale. It is guaranteed that overall scores over 90% will receive an A- or better, scores over 80% will receive a B- or better, and scores over 70% will receive a C or better. However, the actual cutoffs may be lowered at the end of the quarter. In short, it is not my intention to fail half of the students, nor am I planning on giving only 2% of the students A's, but I prefer not to constrain myself with either a straight scale or a formalized curve.
+
+Unforeseen circumstances may lead to changes
+
+This course has been designed specifically for in-person delivery, in a way that takes into account the potential for some uncertainty along the way. While we'll certainly do our best to leave these policies — as well as the general structure of this course — intact, it is possible that unforeseen circumstances amidst uncertain times may require us to make modifications along the way. If so, we'll make those modifications in a way that attempts to preserve the spirit of the course and its grading to the extent possible, and we'll notify everyone of any necessary changes as soon as we can.
+
+Dropping the course or changing grade option
+
+Through the end of Week 2 (Friday, April 8), you may drop the course by simply going to WebReg and dropping it. If you wish to drop the course after that date, you will need to use the Enrollment Exceptions system to request a drop; I do not have the final say over those, ultimately, as the Dean of the Bren School (and your major, if you are majoring in something outside of the Bren School) must approve them. It is not generally the case that an exception will be accepted simply because you're not doing well in a course, though extenuating circumstances are certainly considered.
+
+Similarly, changing your grade option (to Pass/NotPass or back again) can be done via WebReg through the end of Week 2 (Friday, April 8), after which you must use the Enrollment Exceptions system to request the change. As with exceptional drops, you must receive approval from the appropriate Deans, and that approval is not guaranteed.
+
+Academic honesty
+
+The policy
+
+As a student enrolled in ICS 45C, you are expected to know and follow the academic honesty policies of both the Bren School of ICS and the University as a whole. Please take a few minutes to read the policies, which can be found at this link.
+
+All of your work on projects and reinforcement exercises is expected to be completed solely by you. Working in larger groups and/or sharing of code or solutions between students is not permitted. Note that "high-level discussion of course material for better understanding" is permitted and encouraged, but when it comes time to sit down and write code, that is expected to be done by you and you alone. All submissions are compared to one another using an automated plagiarism detection system. This system is extraordinarily good at finding similarities between submissions, even when there are superficial differences. (Note that we also compare your submissions to those submitted during previous quarters whenever one of these assignments was given during a previous quarter, so it is an exceedingly bad idea to turn in, or even refer to, code written by a friend of yours who took the course already.)
+
+Since all of your work is expected to be completed solely by you, you will be held responsible even if you plagiarize only a small portion of someone else's work.
+
+Academic honesty is a two-way street. Providing your code to other students for them to turn in as their own is not permitted any more than turning in someone else's code. Resist the temptation to give code to your friends "for reference." Based on my experience, I can say that your "friends" may very well betray you and turn it in, anyway, and then you'll have a lot to answer for.
+
+Naturally, the Final Exam is also expected to be an individual effort. Dishonest behavior during an exam will not be tolerated.
+
+All violations of academic honesty policies will be reported to the UCI Office of Academic Integrity & Student Conduct (AISC) and will trigger an administrative procedure, which is described on their web site. Additionally (and at least as importantly), you can receive a course grade of F — as a number of students in my courses do, because of this issue, every quarter — without the option to drop the course to avoid the grade. A single documented case of academic dishonesty may also have other ramificiations, such as precluding you from switching into computing majors, registering for computing minors, joining the ICS Honors Program, and graduating from a computing major with honors. All of this is University and Bren School of ICS policy and is not subject to negotiation.
+
+Knowing when you're being dishonest
+
+I've been asked by students how they know when they're crossed the line between asking for help and being academically dishonest. To me, there is a fairly straightforward way to know the difference. Did you actually write the code in question? That's not a matter of whether you typed it in; that's a matter of whether it was you who wrote it (i.e., it is comprised of your own ideas about how to solve the problem, how to organize the solution, and so on).
+
+The easiest way to determine whether you've crossed the line is whether your work was driven by someone else's existing solution. Here are some examples:
+
+If you ask someone to help you resolve a compile-time or run-time error in your program, so you would understand what the error meant, that's fine.
+If you ask someone for help on a project and they responded by giving you a copy of their work, you already have one foot on the line the moment you receive it. If I were you, I would delete it, or not ask for it in the first place.
+If you ask someone else to help you understand a concept like recursion or the use of pointers, and the other student suggests a way you might think differently about the problem you're solving, that's fine.
+If you ask someone else to help you understand how to solve part of the project, and the other student brings up a copy of his or her solution and walks you through it — even if you don't look at it yourself — you've crossed the line.
+If you obtain a copy of someone else's solution to a project and you refer to it and use it to drive the work you're doing — in whole or in part — you've most definitely crossed the line. Copying someone else's code, typing in someone else's code, taking someone else's code and cosmetically changing it to make it appear superficially different are all (obvious) examples of academically dishonest behavior, yet upwards of 10% of my students are caught doing this — and sanctioned for it — every quarter. Please don't be one of them.
+If you provide someone with a copy of your work and they submit it as their own, you are also involved in academically dishonest behavior, and you should be aware that you can also be sanctioned for this, just as the other student can. Your best bet is not to share your work with other students, yet a not-insignificant percentage of my students are caught doing this every quarter, as well.
+In my view, this really isn't that complicated. We require you to do your own work, because that's how the learning is done in this course. A large part of what you're learning to do is to design and write programs, a skill that can only be built by designing and writing programs. You have to make the decisions about what to do next, how to organize your program, and so on. If someone else is making most of those decisions for you, you're not building the skills necessary to be ready for the courses that follow on from this one. And, from the standpoint of academic honesty, if someone else is making most of those decisions for you, that's plagiarism.
+
+The lesson
+
+Okay, so the moral of the story is that it's wise to avoid cheating. I believe that it's relatively rare that students enter a course with the conscious intent to cheat their way through it; why come to UCI if you're not planning to get something out of the coursework? So why do people cheat every quarter in every course? The answers vary, but here's the easiest way I can boil down the numerous conversations I've had with students caught cheating in my courses over the years: I fell behind and couldn't figure out how to catch up. Things happen and ten-week quarters are unforgiving. You might get sick, you might have issues crop up in your family, you might have misunderstood one of the earlier topics in this course (or one or more important topics in previous coursework) on which later topics depended, you might have an off-campus job that's demanding too much of your time, you might be trying to decide whether you're on the overall life path you want to be on... Any of those things (and many others) can make it hard to keep up. You fall a little behind, you fall a little further behind, and pretty soon the situation seems hopeless. You're under pressure, temptation gets the better of you, and suddenly it seems better to submit someone else's work than to submit nothing. As upwards of 10% of my students (who have cheated like this) can attest, it's not.
+
+If you feel like you're beginning to slip off course or things are getting beyond your control, the best thing to do is to talk to us sooner rather than later. We're here to help; we understand. But the reality of taking large-sized courses at a large-sized institution is that we're not going to know you're in need unless you tell us. If things are happening in your life, tell us; you don't have to be specific if you're not comfortable with it. Before the fact, there's often a way to work things out. After the fact, it's usually too late.
+
+And, in general, some students won't pass this course with a C or better this quarter, and won't be ready to take follow-on courses yet. And that's not as disastrous as it sounds. Most students who get less than a C in ICS 45C take the course again; most of those who take the course again pass it the second time around, with their feet firmly underneath them and ready to move forward.
+
+Sharing your own solutions online
+
+Some of our past students have wanted to post their own solutions to their projects online, with the goal of helping others or just showing off work that they were proud of. This is also problematic from an academic honesty perspective, because many or all of the projects you're working on will be reused in a future quarter; good problems are good problems, and I don't rebuild five new projects every quarter. Given that, posting your prior work online will absolutely lead to other students finding it and plagiarizing it — this is now one of the more common root causes of plagiarism cases that we find.
+
+I can appreciate, of course, that you might want to build a portfolio of work to demonstrate your skills as you build them, and I'm not unsympathetic about that. However, the reality is that posting solutions to first-year coursework is very unlikely to be of use in job searches or other professional scenarios. I've asked a number of hiring managers over the years, including ones I've worked for in my industry career, and have universally received the same response about it: Hiring managers generally aren't interested in seeing prior homework. Projects in courses like this one are sanitized, in the sense that they're problems that have been designed to be solved using techniques just taught, with the requirements clearly spelled out, and with few enough rough edges that a large number of students can solve them without encountering roadblocks that can't be overcome. Real-world work isn't like this, as it turns out. Figuring out what needs to be built is as important as figuring out how to build it. Building a portfolio is best done with your own solutions to your own problems, containing things you've written to scratch your own technology itches or explore concepts that you wanted to learn more about on your own.
+
+So, in general, despite the fact that you may be proud of the work you've done, you need to understand that there is a very strong likelihood that the only thing you'll be doing is enabling future students to plagiarize your work — and quite possibly becoming embroiled in the investigation yourself and being reported to AISC — while not accomplishing much of anything positive for youself.
+
+Do not share your prior solutions online.
