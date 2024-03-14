@@ -5,9 +5,10 @@ import sys
 import time
 
 def writeData(scheduler, name: str, summary: str):
-    nameout = name + ".summary"
-    path = Path(".").absolute()
-    filename = path / nameout
+    dirname, fname = os.path.split(name)
+    nameout = fname + ".summary"
+    filename = Path(dirname) / "summary" / nameout
+    filename.parent.mkdir(exist_ok=True, parents=True)
     filename.write_text(summary)
 
 
@@ -23,9 +24,8 @@ class DocumentSummarizer:
             self.handleFile(file)
 
     def handleFile(self, name: str):
-        path = Path(".").absolute()
-        filename = path / name
-        print(filename)
+        filename = Path(name)
+        #print(filename)
         
         if filename.is_file():
             with open(filename, "r") as f:
@@ -40,11 +40,7 @@ class DocumentSummarizer:
             return
         else:
             return
-        var = agentgraph.Var()
-        try:
-            var = self.scheduler.runLLMAgent(msg = self.sysprompt ** self.prompts.loadPrompt("UserPrompt", {'contents' : content}))
-        except:
-            return
+        var = self.scheduler.runLLMAgent(msg = self.sysprompt ** self.prompts.loadPrompt("UserPrompt", {'contents' : content}))
         self.scheduler.runPythonAgent(writeData, pos=[name, var])
     
 def main():
