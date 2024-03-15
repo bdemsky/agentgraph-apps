@@ -6,23 +6,12 @@ From this syllabus, you should be able to extract the class title, as well the p
 
 Here is an email from a student:
 
-{{contents}}
+"{{contents}}"
 
 Please determine which course the student is inquiring about, and determine if the answer to the student's question can be answered by reading the corresponding syllabus. 
 
-If the answer to the student's question can be gathered from the syllabus, please poltiely notify them of that.
+If the answer to the student's question can be gathered from the syllabus, please politely notify them of that.
 
 If the answer cannot be determined from the syllabus, please reply with "The answer to your question is to be determined"
 
-Your output should be in the format:
-
-"
-From: [My email address]
-
-To: [Student email address]
-
-Subject: Re:[Student subject line]
-
-Body: [My Response]"
-
-You should be able to extract my email address, the student's email address, and the subject line from the email i provided.
+Your output should be in the the body of your response.

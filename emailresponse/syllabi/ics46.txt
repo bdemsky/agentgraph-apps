@@ -2,7 +2,7 @@ Course organization
 
 In-person format
 
-This course will be administered in a predominantly in-person format. What this means, chiefly, is that your physical presence on campus will be required at various points throughout the quarter, and that we will not be guarnteeing a separate virtual experience to students who are not physically attending at those times.
+This course will be administered in a predominantly in-person format. What this means, chiefly, is that your physical presence on campus will be required at various points throughout the quarter, and that we will not be guaranteeing a separate virtual experience to students who are not physically attending at those times.
 
 Required equipment
 
@@ -13,11 +13,11 @@ You'll also need an Internet connection that is fast and stable enough to stream
 And, of course, you'll also be doing your programming projects and reinforcement exercises on a laptop or desktop computer, as well, and there's a pretty good chance that you'll want it to be the same one, because a factor in our ability to help you debug your work remotely, when circumstances call for it, will be our ability to see it in real time and discuss it with you.
 Lecture
 
-A lecture meets on Tuesdays and Thursdays from 5:00-6:20pm in EH 1200. Given the course's size, attendance is not graded, but we certainly recommend it. (Naturally, attendance is required on the days when exams are held, which are listed in the Schedule.)
+A lecture meets on Tuesdays and Thursdays from 6:30-7:50pm in EH 1200. Given the course's size, attendance is not graded, but we certainly recommend it. (Naturally, attendance is required on the days when exams are held, which are listed in the Schedule.)
 
 Pre-recorded videos
 
-Portions of the lecture material will be pre-recorded and will be available to officially-enrolled students via the Canvas course space for ICS 45C, in addition to the lecture material that is scheduled to be presented in-person. It is reasonable to expect that a decisive majority of the lecture material will be presented in-person and will not separately be available via pre-recorded videos. You'll see that the video content is listed in the Schedule, alongside the lecture content.
+Portions of the lecture material will be pre-recorded and will be available to officially-enrolled students via the Canvas course space for ICS 46, in addition to the lecture material that is scheduled to be presented in-person. It is reasonable to expect that a decisive majority of the lecture material will be presented in-person and will not separately be available via pre-recorded videos. You'll see that the video content is listed in the Schedule, alongside the lecture content.
 
 Of course, you are under no obligation to watch the pre-recorded videos, and we will not be measuring whether or not you do so. For the most part, the lectures and any pre-recorded videos will corresponding pretty closely with the Notes and Examples, as is usual in my courses these days. But it's hard to imagine you'll get what you came for without watching the videos and attending the lectures.
 
@@ -49,6 +49,17 @@ During these times, some combination of TAs and lab tutors will be available to 
 
 The lab meetings begin on Thursday, March 31. Times and locations are listed below.
 
+A course space has been created on Ed Discussion. You'll find a link to Ed Discussion on this course's Canvas page.
+
+Within Ed Discussion, you'll be able to ask us (and each other) questions about course material, and can expect to see both course staff and students answering those questions along the way. It is our hope that this can be a useful resource to you, and the course staff will be glad to be of service there throughout the quarter.
+
+However, it's important to note that Ed Discussion is only a positive and productive tool if students use a certain level of etiquette and care in using it, so we'll be requiring that — and your grade can be negatively affected if you do otherwise. So what does that mean? In practice, it means a few things.
+
+Before asking a question, read the course web site thoroughly and make sure it's not a question that's clearly answered there already. In a typical quarter, about a third of the email I get from students are things that are clearly already discussed in detail on the course web site; I'd like that ratio to be lower on Ed Discussion, since that's not just a drag on my time, but, more importantly, is a drag on everyone's time, including other students.
+Before asking a question, use the search box to find existing questions that have already been asked that would already provide your answer. Especially as we get later in a project cycle or nearer to a due date on a reinforcement exercise, many questions will already have been asked and answered; if so, you asking the question again is a drag on everyone's time.
+Do not, under any circumstances, post your solutions — in whole or in part — to projects or reinforcement exercises. Note that there is no size threshold below which you can post your work (e.g., "It was only two lines of code!"); we have a zero-tolerance policy for sharing any part of it. If your question is so specific to your own program that it can't be asked without divulging the contents of your work, or your speculation about whether an answer (or part of an answer) might be correct, you'll need to ask the question elsewhere, such as a lab meeting or via email.
+Do not, under any circumstances, ask questions on Ed Discussion about how your work was graded, how your work will be graded, or how others' work was graded. Inquiries about scoring must be made directly to the relevant course staff member via email.
+Ed Discussion is a forum for course-related content, discussing and learning about related things (e.g., aspects of C++ not being taught in the course), and getting assistance. It is not a general discussion forum, nor is it a social media platform, so keep the discussion on topic. We are holding you to the standard of treating each other with respect, which importantly includes respecting other people's time (which is why we're forbidding off-topic discussion). Additionally, we will not tolerate any type of personal attacks, memes, cyber-bullying, negativity, or hurtful behavior.
 Textbooks
 
 This course requires no textbook, as I will be providing a complete set of Notes and Examples covering every lecture this quarter.
@@ -63,12 +74,12 @@ Grading
 
 Weights of graded artifacts
 
-Your course grade will be determined from the weighted combination of your scores on each of five programming projects, eight sets of reinforcement exercises, and an in-person Final Exam. The weights of each of these are:
+Your course grade will be determined from the weighted combination of your scores on each of six programming projects, eight sets of reinforcement exercises, and an in-person Final Exam. The weights of each of these are:
 
-One "set-up" project, 2%
-Four projects, 44% (weighted equally at 11% each)
+One "set-up" project, 3%
+Five projects, 40% (weighted equally at 8% each)
 Eight sets of reinforcement exercises, 24% (weighted equally at 3% each)
-Final Exam, 30%
+Final Exam, 33%
 Online participation and decorum
 
 While it is not our intent to measure your participation — in the sense that we won't be tracking whether you're attending the lectures, watching pre-recorded videos, attending the lab sessions, and so on — we are requiring that students meet the decorum requirements described above. We reserve the right to deduct as much as 10% from a student's grade when their behavior does not follow those decorum requirements, with repeated or severe violations warranting larger-sized deductions. My sincere hope is that no one will receive these deductions, but we do reserve the right to use them if need be.
@@ -88,25 +99,3 @@ Dropping the course or changing grade option
 Through the end of Week 2 (Friday, April 8), you may drop the course by simply going to WebReg and dropping it. If you wish to drop the course after that date, you will need to use the Enrollment Exceptions system to request a drop; I do not have the final say over those, ultimately, as the Dean of the Bren School (and your major, if you are majoring in something outside of the Bren School) must approve them. It is not generally the case that an exception will be accepted simply because you're not doing well in a course, though extenuating circumstances are certainly considered.
 
 Similarly, changing your grade option (to Pass/NotPass or back again) can be done via WebReg through the end of Week 2 (Friday, April 8), after which you must use the Enrollment Exceptions system to request the change. As with exceptional drops, you must receive approval from the appropriate Deans, and that approval is not guaranteed.
-
-Academic honesty
-
-The policy
-
-As a student enrolled in ICS 45C, you are expected to know and follow the academic honesty policies of both the Bren School of ICS and the University as a whole. Please take a few minutes to read the policies, which can be found at this link.
-
-All of your work on projects and reinforcement exercises is expected to be completed solely by you. Working in larger groups and/or sharing of code or solutions between students is not permitted. Note that "high-level discussion of course material for better understanding" is permitted and encouraged, but when it comes time to sit down and write code, that is expected to be done by you and you alone. All submissions are compared to one another using an automated plagiarism detection system. This system is extraordinarily good at finding similarities between submissions, even when there are superficial differences. (Note that we also compare your submissions to those submitted during previous quarters whenever one of these assignments was given during a previous quarter, so it is an exceedingly bad idea to turn in, or even refer to, code written by a friend of yours who took the course already.)
-
-Since all of your work is expected to be completed solely by you, you will be held responsible even if you plagiarize only a small portion of someone else's work.
-
-Academic honesty is a two-way street. Providing your code to other students for them to turn in as their own is not permitted any more than turning in someone else's code. Resist the temptation to give code to your friends "for reference." Based on my experience, I can say that your "friends" may very well betray you and turn it in, anyway, and then you'll have a lot to answer for.
-
-Naturally, the Final Exam is also expected to be an individual effort. Dishonest behavior during an exam will not be tolerated.
-
-All violations of academic honesty policies will be reported to the UCI Office of Academic Integrity & Student Conduct (AISC) and will trigger an administrative procedure, which is described on their web site. Additionally (and at least as importantly), you can receive a course grade of F — as a number of students in my courses do, because of this issue, every quarter — without the option to drop the course to avoid the grade. A single documented case of academic dishonesty may also have other ramificiations, such as precluding you from switching into computing majors, registering for computing minors, joining the ICS Honors Program, and graduating from a computing major with honors. All of this is University and Bren School of ICS policy and is not subject to negotiation.
-
-Knowing when you're being dishonest
-
-I've been asked by students how they know when they're crossed the line between asking for help and being academically dishonest. To me, there is a fairly straightforward way to know the difference. Did you actually write the code in question? That's not a matter of whether you typed it in; that's a matter of whether it was you who wrote it (i.e., it is comprised of your own ideas about how to solve the problem, how to organize the solution, and so on).
-
-The easiest way to determine whether you've crossed the line is whether your work was driven by someone else's existing solution. Here are some examples:

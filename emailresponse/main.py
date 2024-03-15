@@ -5,11 +5,11 @@ import time
 import agentgraph.config
 from pathlib import Path
 
-def writeData(scheduler, name: str, comments: str):
+def writeData(scheduler, name: str, email: str):
     nameout = name + ".reply"
     path = Path(".").absolute()
     filename = path / nameout
-    filename.write_text(comments)
+    filename.write_text(email)
     
 class Responder:
     def __init__(self):
@@ -50,14 +50,21 @@ class Responder:
         path = Path(".").absolute()
         filename = path / name
         print(filename)
+        
         if filename.is_file():
             with open(filename, "r") as f:
                 try:
                     content = f.read()
+                   
                 except UnicodeDecodeError as e:
                     pass
+        elif filename.is_dir():
+            for file in os.listdir(filename):
+                self.handleFile(f'{name}/{file}')
+            return
         else:
             return
+        
         var = self.scheduler.runLLMAgent(msg = self.sysprompt1 ** self.prompts.loadPrompt("UserPrompt1", {'contents' : content, 'courses':self.syllabi.keys()}))
         print("------\n", var.getValue())
         course = var.getValue().strip().split('*')[1].strip().strip("\"")
