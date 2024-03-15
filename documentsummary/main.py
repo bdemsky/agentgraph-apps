@@ -20,8 +20,13 @@ class DocumentSummarizer:
         self.sysprompt = self.prompts.loadPrompt("System")
     
     def process(self, names: list):
-        for file in names:
-            self.handleFile(file)
+        for name in names:
+            path = Path(name)
+            if path.is_dir():
+                for file in os.listdir(path):
+                    self.handleFile(f'{name}/{file}')
+            else:
+                self.handleFile(name)
 
     def handleFile(self, name: str):
         filename = Path(name)
@@ -34,10 +39,6 @@ class DocumentSummarizer:
                 except UnicodeDecodeError as e:
                     print(e)
                     return
-        elif filename.is_dir():
-            for file in os.listdir(filename):
-                self.handleFile(f'{name}/{file}')
-            return
         else:
             return
         var = self.scheduler.runLLMAgent(msg = self.sysprompt ** self.prompts.loadPrompt("UserPrompt", {'contents' : content}))
