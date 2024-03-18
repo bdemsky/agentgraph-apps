@@ -67,7 +67,11 @@ class Responder:
         
         var = self.scheduler.runLLMAgent(msg = self.sysprompt1 ** self.prompts.loadPrompt("UserPrompt1", {'contents' : content, 'courses':self.syllabi.keys()}))
         print("------\n", var.getValue())
-        course = var.getValue().strip().split('*')[1].strip().strip("\"")
+        try:
+            course = var.getValue().strip().split('*')[1].strip().strip("\"")
+        except:
+            print("Cannot determine the course")
+            return
         var2 = self.scheduler.runLLMAgent(msg = self.sysprompt2 ** self.prompts.loadPrompt("UserPrompt2", {'contents' : content, 'course':course, 'syllabus': self.syllabi[course]}))
         self.scheduler.runPythonAgent(writeData, pos=[name, var2])
 

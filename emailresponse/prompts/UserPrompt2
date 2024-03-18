@@ -8,10 +8,6 @@ Here is an email from a student:
 
 "{{contents}}"
 
-Please determine which course the student is inquiring about, and determine if the answer to the student's question can be answered by reading the corresponding syllabus. 
+Please draft an email responding to the student's question. If the answer to their question can be found in the syllabus for that course, please politely notify them of that.
 
-If the answer to the student's question can be gathered from the syllabus, please politely notify them of that.
-
-If the answer cannot be determined from the syllabus, please reply with "The answer to your question is to be determined"
-
-Your output should be in the the body of your response.
+If the answer to their question cannot be found in the syllabus, tell them "I can not answer your question at this time."
