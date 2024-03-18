@@ -5,11 +5,12 @@ import time
 import agentgraph.config
 from pathlib import Path
 
-def writeData(scheduler, name: str, email: str):
-    nameout = name + ".reply"
-    path = Path(".").absolute()
-    filename = path / nameout
-    filename.write_text(email)
+def writeData(scheduler, name: str, comments: str):
+    dirname, fname = os.path.split(name)
+    nameout = fname + ".reply"
+    filename = Path(dirname)/ "reply" / nameout
+    filename.parent.mkdir(exist_ok=True, parents=True)
+    filename.write_text(comments)
     
 class Responder:
     def __init__(self):
@@ -19,17 +20,22 @@ class Responder:
         self.sysprompt1 = self.prompts.loadPrompt("System1")
         self.sysprompt2 = self.prompts.loadPrompt("System2")
         self.syllabi = dict()
+
     def process(self, names: list):
-        for file in names:
-            self.handleFile(file)
+        for name in names:
+            path = Path(name)
+            if path.is_dir():
+                for file in os.listdir(path):
+                    self.handleFile(f'{name}/{file}')
+            else:
+                self.handleFile(name)
     
     def loadSyllabi(self, file:str):
         self.handleSyllabus(file)
 
     def handleSyllabus(self, name: str):
-        path = Path(".").absolute()
-        filename = path / name
-        print(filename)
+        filename = Path(name)
+        # print(filename)
         
         if filename.is_file():
             with open(filename, "r") as f:
@@ -47,10 +53,8 @@ class Responder:
 
 
     def handleFile(self, name: str):
-        path = Path(".").absolute()
-        filename = path / name
-        print(filename)
-        
+        filename = Path(name)
+        # print(filename)
         if filename.is_file():
             with open(filename, "r") as f:
                 try:
@@ -58,26 +62,28 @@ class Responder:
                    
                 except UnicodeDecodeError as e:
                     pass
-        elif filename.is_dir():
-            for file in os.listdir(filename):
-                self.handleFile(f'{name}/{file}')
-            return
         else:
             return
         
         var = self.scheduler.runLLMAgent(msg = self.sysprompt1 ** self.prompts.loadPrompt("UserPrompt1", {'contents' : content, 'courses':self.syllabi.keys()}))
-        print("------\n", var.getValue())
-        try:
-            course = var.getValue().strip().split('*')[1].strip().strip("\"")
-        except:
-            print("Cannot determine the course")
-            return
-        var2 = self.scheduler.runLLMAgent(msg = self.sysprompt2 ** self.prompts.loadPrompt("UserPrompt2", {'contents' : content, 'course':course, 'syllabus': self.syllabi[course]}))
+        
+        split_at_course = course = var.getValue().strip().split('*')
+        if len(split_at_course) < 2:
+            print("Unable to parse course name for", name, "from LLM response")
+            course = "unknown"
+            syllabus = "unknown"
+        else: 
+            course = split_at_course[1].strip().strip("\"")
+            if not course in self.syllabi:
+                print("unable to find syllabus for", course, "from LLM response")
+                syllabus = "unknown"
+            else:
+                syllabus = self.syllabi[course]
+        var2 = self.scheduler.runLLMAgent(msg = self.sysprompt2 ** self.prompts.loadPrompt("UserPrompt2", {'contents' : content, 'course':course, 'syllabus': syllabus}))
         self.scheduler.runPythonAgent(writeData, pos=[name, var2])
 
 
 def main():
-    agentgraph.config.VERBOSE = 1
     responder = Responder()
     responder.loadSyllabi(sys.argv[1])
     responder.process(sys.argv[2:])
