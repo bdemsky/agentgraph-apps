@@ -1,0 +1,14 @@
+Punctuation and formatting markup have been normalized.
+
+Apparent printer's errors have been retained.
+
+The words struck out on the title page have been surrounded by "xx" to
+show the strikethrough.
+
+Underlined words and passages have been surrounded by "=".
+
+Tags for illustrations appear in the same order as the original. In some
+cases, this varies from the order stated in the Table of Drawings.
+
+Page 12, Period added. (You and I smoke big cigars while they--all too
+soon, poor little chaps--smoke what you and I and others throw away.)

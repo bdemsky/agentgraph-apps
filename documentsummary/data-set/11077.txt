@@ -1,0 +1,185 @@
+Tool-makers and software designers are increasingly aware of the
+notion of "affordances" in design. You can bash a nail into the
+wall with any heavy, heftable object from a rock to a hammer to a
+cast-iron skillet. However, there's something about a hammer that
+cries out for nail-bashing, it has affordances that tilt its
+holder towards swinging it. And, as we all know, when all you
+have is a hammer, everything starts to look like a nail.
+
+The affordance of a computer -- the thing it's designed to do --
+is to slice-and-dice collections of bits. The affordance of the
+Internet is to move bits at very high speed around the world at
+little-to-no cost. It follows from this that the center of the
+ebook experience is going to involve slicing and dicing text and
+sending it around.
+
+Copyright lawyers have a word for these activities: infringement.
+That's because copyright gives creators a near-total monopoly
+over copying and remixing of their work, pretty much forever
+(theoretically, copyright expires, but in actual practice,
+copyright gets extended every time the early Mickey Mouse
+cartoons are about to enter the public domain, because Disney
+swings a very big stick on the Hill).
+
+This is a huge problem. The biggest possible problem. Here's why:
+
+[CHART: HOW BROKEN COPYRIGHT SCREWS EVERYONE]
+
+* Authors freak out. Authors have been schooled by their peers
+that strong copyright is the only thing that keeps them from
+getting savagely rogered in the marketplace. This is pretty much
+true: it's strong copyright that often defends authors from their
+publishers' worst excesses. However, it doesn't follow that
+strong copyright protects you from your *readers*.
+
+* Readers get indignant over being called crooks. Seriously.
+You're a small businessperson. Readers are your customers.
+Calling them crooks is bad for business.
+
+* Publishers freak out. Publishers freak out, because they're in
+the business of grabbing as much copyright as they can and
+hanging onto it for dear life because, dammit, you never know.
+This is why science fiction magazines try to trick writers into
+signing over improbable rights for things like theme park rides
+and action figures based on their work -- it's also why literary
+agents are now asking for copyright-long commissions on the books
+they represent: copyright covers so much ground and takes to long
+to shake off, who wouldn't want a piece of it?
+
+* Liability goes through the roof. Copyright infringement,
+especially on the Net, is a supercrime. It carries penalties of
+$150,000 per infringement, and aggrieved rights-holders and their
+representatives have all kinds of special powers, like the
+ability to force an ISP to turn over your personal information
+before showing evidence of your alleged infringement to a judge.
+This means that anyone who suspects that he might be on the wrong
+side of copyright law is going to be terribly risk-averse:
+publishers non-negotiably force their authors to indemnify them
+from infringement claims and go one better, forcing writers to
+prove that they have "cleared" any material they quote, even in
+the case of brief fair-use quotations, like song-titles at the
+opening of chapters. The result is that authors end up assuming
+potentially life-destroying liability, are chilled from quoting
+material around them, and are scared off of public domain texts
+because an honest mistake about the public-domain status of a
+work carries such a terrible price.
+
+* Posterity vanishes. In the Eldred v. Ashcroft Supreme Court
+hearing last year, the court found that 98 percent of the works
+in copyright are no longer earning money for anyone, but that
+figuring out who these old works belong to with the degree of
+certainty that you'd want when one mistake means total economic
+apocalypse would cost more than you could ever possibly earn on
+them. That means that 98 percent of works will largely expire
+long before the copyright on them does. Today, the names of
+science fiction's ancestral founders -- Mary Shelley, Arthur
+Conan Doyle, Edgar Allan Poe, Jules Verne, HG Wells -- are still
+known, their work still a part of the discourse. Their spiritual
+descendants from Hugo Gernsback onward may not be so lucky -- if
+their work continues to be "protected" by copyright, it might
+just vanish from the face of the earth before it reverts to the
+public domain.
+
+This isn't to say that copyright is bad, but that there's such a
+thing as good copyright and bad copyright, and that sometimes,
+too much good copyright is a bad thing. It's like chilis in soup:
+a little goes a long way, and too much spoils the broth.
+
+From the Luther Bible to the first phonorecords, from radio to
+the pulps, from cable to MP3, the world has shown that its first
+preference for new media is its "democratic-ness" -- the ease
+with which it can reproduced.
+
+(And please, before we get any farther, forget all that business
+about how the Internet's copying model is more disruptive than
+the technologies that proceeded it. For Christ's sake, the
+Vaudeville performers who sued Marconi for inventing the radio
+had to go from a regime where they had *one hundred percent*
+control over who could get into the theater and hear them perform
+to a regime where they had *zero* percent control over who could
+build or acquire a radio and tune into a recording of them
+performing. For that matter, look at the difference between a
+monkish Bible and a  Luther Bible -- next to that phase-change,
+Napster is peanuts)
+
+Back to democratic-ness. Every successful new medium has traded
+off its artifact-ness -- the degree to which it was populated by
+bespoke hunks of atoms, cleverly nailed together by master
+craftspeople -- for ease of reproduction. Piano rolls weren't as
+expressive as good piano players, but they scaled better -- as
+did radio broadcasts, pulp magazines, and MP3s. Liner notes, hand
+illumination and leather bindings are nice, but they pale in
+comparison to the ability of an individual to actually get a
+copy of her own.
+
+Which isn't to say that old media die. Artists still
+hand-illuminate books; master pianists still stride the boards at
+Carnegie Hall, and the shelves burst with tell-all biographies of
+musicians that are richer in detail than any liner-notes booklet.
+The thing is, when all you've got is monks, every book takes on
+the character of a monkish Bible. Once you invent the printing
+press, all the books that are better-suited to movable type
+migrate into that new form. What's left behind are those items
+that are best suited to the old production scheme: the plays that
+*need* to be plays, the books that are especially lovely on
+creamy paper stitched between covers, the music that is most
+enjoyable performed live and experienced in a throng of humanity.
+
+Increased democratic-ness translates into decreased control: it's
+a lot harder to control who can copy a book once there's a
+photocopier on every corner than it is when you need a monastery
+and several years to copy a Bible. And that decreased control
+demands a new copyright regime that rebalances the rights of
+creators with their audiences.
+
+For example, when the VCR was invented, the courts affirmed a new
+copyright exemption for time-shifting; when the radio was
+invented, the Congress granted an anti-trust exemption to the
+record labels in order to secure a blanket license; when cable TV
+was invented, the government just ordered the broadcasters to
+sell the cable-operators access to programming at a fixed rate.
+
+Copyright is perennially out of date, because its latest rev was
+generated in response to the last generation of technology. The
+temptation to treat copyright as though it came down off the
+mountain on two stone tablets (or worse, as "just like" real
+property) is deeply flawed, since, by definition, current
+copyright only considers the last generation of tech.
+
+So, are bookwarez in violation of copyright law? Duh. Is this the
+end of the world? *Duh*. If the Catholic church can survive the
+printing press, science fiction will certainly weather the advent
+of bookwarez.
+
+#
+
+Lagniappe [Lagniappe]
+
+We're almost done here, but there's one more thing I'd like to do
+before I get off the stage. [Lagniappe: an unexpected bonus or
+extra] Think of it as a "lagniappe" -- a little something extra
+to thank you for your patience.
+
+About a year ago, I released my first novel, Down and Out in the
+Magic Kingdom, on the net, under the terms of the most
+restrictive Creative Commons license available. All it allowed my
+readers to do was send around copies of the book. I was
+cautiously dipping my toe into the water, though at the time, it
+felt like I was taking a plunge.
+
+Now I'm going to take a plunge. Today, I will re-license the text
+of Down and Out in the Magic Kingdom under a Creative Commons
+"Attribution-ShareAlike-Derivs-Noncommercial" license [HUMAN
+READABLE LICENSE], which means that as of today, you have my
+blessing to create derivative works from my first book. You can
+make movies, audiobooks, translations, fan-fiction, slash fiction
+(God help us) [GEEK HIERARCHY], furry slash fiction [GEEK
+HIERARCHY DETAIL], poetry, translations, t-shirts, you name it,
+with two provisos: that one, you have to allow everyone else to
+rip, mix and burn your creations in the same way you're hacking
+mine; and on the other hand, you've got to do it noncommercially.
+
+The sky didn't fall when I dipped my toe in. Let's see what
+happens when I get in up to my knees.
+
+The text with the new license will be online before the end of

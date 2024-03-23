@@ -1,0 +1,148 @@
+[Illustration: Sears]
+
+  =owners manual=
+
+  D.C. POWERED TIMING LIGHT
+  MODEL 161.2158
+
+  FOR 12 VOLT IGNITION SYSTEMS
+
+
+  +--------------------------------------------------------------------+
+  | To achieve efficient and economical engine operation, the ignition |
+  | system must be timed in accordance with the manufacturer's         |
+  | specifications. Since ignition timing is also affected by the      |
+  | dwell angle, it is necessary to use a dwell meter to set the dwell |
+  | angle to the manufacturer's specification before using the timing  |
+  | light to time the engine.                                          |
+  |                                                                    |
+  |                                                                    |
+  | The information in this manual will serve as a general guide for   |
+  | engine timing.                                                     |
+  |                                                                    |
+  | CONSULT THE OWNER'S MANUAL OF THE VEHICLE BEING TESTED             |
+  | FOR SPECIFIC INFORMATION ON DWELL ANGLE AND ENGINE TIMING.         |
+  +--------------------------------------------------------------------+
+
+
+     =SEARS, ROEBUCK AND CO. U.S.A.=
+         CHICAGO, ILLINOIS   60684
+
+  PRINTED IN U.S.A.                                               2-1329
+
+
+
+
+=RULES FOR SAFE OPERATION=
+
+
+  1. Set the parking brake and place the gear selector lever in Park
+     position on automatic transmissions or in Neutral on manual
+     transmissions.
+
+  2. Operate the vehicle in a well ventilated area to avoid danger of
+     carbon monoxide poisoning.
+
+  3. Be careful when testing an operating engine--stay away from the
+     fan blades, drive belts, high voltage spark plug wires and hot
+     exhaust manifold.
+
+  4. Be careful when working near the battery. Do not short the Positive
+     terminal to ground.
+
+
+DO NOT LOOK DIRECTLY AT THE LENS OF
+THE TIMING LIGHT WHEN IT IS OPERATING.
+
+
+=PRELIMINARY=
+
+
+  1. Consult the vehicle's service manual for instructions regarding
+     vacuum connections and specific timing procedures.
+
+  2. With the engine stopped, clean the dirt from the timing marks.
+
+  3. Set the engine idle speed to the vehicle's specification with a
+     tachometer.
+
+  4. Check the distributor dwell angle and adjust to the manufacturer's
+     specifications, if necessary, before timing the engine.
+
+
+=HOW TO CONNECT=
+
+
+  1. With the engine off, connect the BLACK clip to the battery
+     NEGATIVE (-) terminal.
+
+  2. Connect the RED clip to the battery POSITIVE (+) terminal.
+
+  3. Consult the vehicle's service manual for the location of the spark
+     plug in number 1 cylinder. Disconnect spark plug wire and attach
+     adapter to the spark plug. Connect the spark plug wire to the
+     adapter. Fasten GREEN clip to the adapter.
+
+  4. Optional hookup: The adapter may be placed in the distributor
+     tower for the number 1 cylinder. Attach the GREEN clip to the
+     adapter and connect the spark plug wire to the adapter.
+
+
+   [Illustration:
+     Consult the vehicle's service      ENGINE BLOCK
+     manual for the location of
+     No. 1 spark plug.                 NO. 1 CYLINDER
+                                        /
+                         /---Adapter--=/=
+                        /             /
+     Sears      GREEN  /             /
+     Timing  ---------/             / #1 Spark Plug Wire
+      Light         :              /
+     /      \        : or         /
+     |      |         :          /
+     |      |          :        |
+     |      |           :       | | | | |  Other
+     |      |            :      | | | | | Spark Plug
+     |      |          ADAPTER-=| | | | |  Wires
+     |      |                  /---------\
+    /        \                 |         |
+   RED      BLACK              #1 Cylinder
+   (+)        (-)            Distributor Tower
+   +============+
+   |   Auto     |
+   |  Battery   |
+   |            |
+   +============+]
+
+
+
+
+
+=ENGINE TIMING=
+
+
+  1. Start the engine and allow it to warm up.
+
+  2. After the engine is warm, operate it at idling speed or the RPM
+     specified in the vehicle manual.
+
+  3. Aim the timing light at the timing marks, press the switch to
+     operate the timing light and observe the timing mark. The position
+     of the timing mark must agree with the manufacturer's
+     specification. If it does not, reset the timing as follows:
+
+  4. Stop the engine.   Loosen distributor hold-down device (consult
+     service manual for specific method). Distributor should be just
+     loose enough to permit rotating the distributor body by hand.
+
+  5. Restart the engine. Slowly turn the distributor in the correct
+     direction in order to line up the timing marks.
+
+  6. When the specified timing marks are in line, stop the engine and
+     securely tighten the distributor hold-down device.
+
+  7. Restart the engine and recheck the timing.
+
+  8. Stop the engine, disconnect the timing light, remove the adapter
+     from No. 1 spark plug or distributor tower and replace the spark
+     plug wire securely.

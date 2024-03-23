@@ -1,0 +1,107 @@
+words in bold. Words surrounded by underscores, like _this_, signifies
+words in italics.]
+
+
+
+
+The Subspecific Status of Two Central American Sloths
+
+BY
+
+E. RAYMOND HALL and KEITH R. KELSON
+
+
+New name combinations for two kinds of Central American sloths that
+heretofore have stood in the literature as nominal species are given
+below, along with the evidence supporting their relegation to
+subspecific rank. Research assistance has been provided from a contract
+(NR 161-791) between the Office of Naval Research, Department of the
+Navy, and the University of Kansas.
+
+
+~Bradypus griseus ignavus~ Goldman
+
+Goldman (Smiths. Misc. Coll., 60(22):1, February 28, 1913) named the
+three-toed sloth from extreme eastern Panama (Marraganti: 1 specimen,
+the type) and northwestern Colombia (Atrato River: 2 specimens) as
+_Bradypus ignavus_. He characterized the newly-named species as
+differing from _Bradypus griseus_ (type locality Cordillera de Chucu,
+Veragua, Panama) and _Bradypus castaneiceps_ (type locality, Chontales,
+Nicaragua) in "nasals shorter, with anterior border concave or
+emarginate, the emargination deepest at median suture; squamosal arm of
+zygoma broader, more rounded, less acutely pointed anteriorly; palate
+less deeply grooved posteriorly; symphysis of mandible less produced
+anteriorly beyond plane of first molars." Later, Goldman (Smiths. Misc.
+Coll., 69(5):57-58, April 24, 1920) arranged _Bradypus castaneiceps_ as
+a subspecies of _B. griseus_, reaffirmed the full specific identity of
+_Bradypus ignavus_, and identified specimens from Tapalisa, Cituro, and
+Real de Santa Maria, all in eastern Panama, as belonging to _B.
+ignavus_.
+
+In order to satisfy ourselves about the taxonomic relationship of _B.
+ignavus_ to _B. griseus_, we have examined the following materials in
+the American Museum of Natural History: _ignavus_: Panama: Cituro (No.
+38191), Tapalisa (No. 38102), Real de Santa Maria (Nos. 37619-37621);
+_griseus_: Panama: La Chorrera (No. 31427); Costa Rica: Juan Vinas (No.
+2824), Palmar (No. 139313), Vijagual, San Carlos (No. 139833);
+_castaneiceps_: Nicaragua: Chontales (Nos. 28477 and 28478).
+
+The specimens from Real de Santa Maria, Tapalisa, and Cituro, average
+darker than all others, but this darkness is approached in certain
+specimens of _griseus_ (for example, No. 139833, from Vijagual, San
+Carlos). The broader, more rounded and less acutely pointed squamosal
+arm of the zygoma supposedly characteristic of _ignavus_ is matched in
+certain specimens of _griseus_ (for example, in No. 2824 from Juan
+Vinas, Costa Rica) and the character is variable among specimens
+referred to _ignavus_; the shape of the squamosal arm is of doubtful
+taxonomic worth in the present connection. The depth of the grooving on
+the palate seems to vary with age and is of questionable value
+taxonomically. The emarginate nasals of _ignavus_ are matched in
+_griseus_ (No. 139833) from Vijagual, San Carlos, Costa Rica. The
+extension of the anterior symphyseal region of the mandible is short in
+_ignavus_; the specimen with the longest extension (No. 37621 from El
+Real), however, has the extension only barely shorter than does No.
+139933 of _griseus_ from Vijagual, San Carlos, Costa Rica. In brief,
+while we see the characters of _ignavus_ as set forth by Goldman (_op.
+cit._), we find them to be of only an average sort and not pronounced.
+Further, a specimen (No. 139833) from Vijagual, San Carlos, Costa Rica,
+provides a morphological intergrade between _griseus_ and _ignavus_.
+Accordingly, we arrange _ignavus_ as a subspecies of _griseus_; the name
+of the animal from extreme eastern Panama should stand as _Bradypus
+griseus ignavus_ Goldman, 1913.
+
+
+~Cyclopes didactylus mexicanus~ Hollister
+
+Hollister (Proc. Biol. Soc. Washington, 127:210, October 31, 1914) named
+_Cyclopes mexicanus_, on the basis of light-golden upper parts and
+large, especially broad, auditory bullae, as specifically distinct from
+_Cyclopes dorsalis_ Gray (= _Cyclopes tridactylus dorsalis_ Gray). Our
+comparisons and examination of the specimens used by Hollister and a few
+other specimens acquired since 1914 convince us that _C. mexicanus_ is
+taxonomically valid and that Hollister, in general, correctly indicated
+its diagnostic characters. Nevertheless, there is considerable evidence
+that _C. mexicanus_ is only subspecifically distinct from _C. dorsalis_.
+In the first place, an adult _C. dorsalis_, not seen by Hollister, from
+El Banco, Chiriqui, Panama (No. 248343 USBS), has more inflated,
+although narrower, auditory bullae than do specimens of _C. mexicanus_.
+In the second place, the two specimens mentioned by Hollister (_loc.
+cit._) as from "Tabasco and southern Vera Cruz" actually are both from
+Tabasco (No. 100040 USBS from Teapa, and No. 100174 USBS from
+Montecristo). Each, as Hollister indicated, is darker on the upper parts
+than his other referred specimens (two others from Montecristo in
+Tabasco and another from El Salto in Chiapas). To us this suggests
+intergradation with _C. dorsalis_. Incidentally, the specimen that
+Hollister mentioned from Veracruz (No. 78111 USBS, from Minatitlan), and
+that he indicated as having dark upper parts, really has light upper
+parts. Third, a skin from Peten, Libertad, Guatemala (Harry Malleis
+field No. 504, immature female), that the late Major E. A. Goldman
+and one of us (Hall) once examined, has considerable dark brown on the
+chin, throat and midventral line, as well as a dark mid-dorsal stripe.
+The specimen is intermediate in color, as well as geographically,
+between _C. t. dorsalis_ and _C. mexicanus_, although referable to the
+latter. Taken together, the above evidence indicates subspecific status
+for the northern, Mexican, animal and we conclude that it should stand
+as _Cyclopes tridactylus mexicanus_ Hollister.
+
+_Transmitted July 1, 1952._

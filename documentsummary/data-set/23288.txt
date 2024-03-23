@@ -1,0 +1,8 @@
+Obvious punctuation errors repaired.
+
+Text denoted by ^{x} was superscripted in the original.
+
+Varied hyphenation of Church-Yard was retained.
+
+Illustration, page 2, "Snffers" changed to "Snuffers" (Snuffers &
+Stand.)

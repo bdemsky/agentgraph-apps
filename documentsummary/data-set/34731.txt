@@ -1,0 +1,139 @@
+# En 2020, quizas
+
+Quizas podamos beneficiar en el futuro de la traduccion inmediata de
+estos libros a una gran variedad de idiomas, a traves de un software de
+traduccion automatica.
+
+En diez anos, la traduccion automatica podria haber logrado un
+porcentaje de fiabilidad del 99% - la investigacion es muy activa en
+este campo, y los softwares son cada vez mejores - con capacidad de
+leer obras literarias en un gran numero de idiomas.
+
+Los libros traducidos por un software de traduccion automatica no van a
+competir con el trabajo de los traductores literarios y sus esfuerzos
+talentosos durante dias y meses si no anos. Pero van a permitir al
+lector captar lo esencial de obras literarias nunca traducidas, o
+traducidas solo a unos pocos idiomas por razones comerciales.
+
+Un libro traducido por un software de traduccion podra a continuacion
+ser corregido por traductores (seres humanos) mediante el uso de una
+interfaz similar a la que utilizan ahora los voluntarios de Distributed
+Proofreaders para la correccion de un libro digital producido por un
+software de OCR (reconocimiento optico de caracteres).
+
+Asi pues, uno empieza a sonar con Distributed Translators para
+compartir la revision de las traducciones, como un socio de Distributed
+Proofreaders y del Proyecto Gutenberg.
+
+
+
+LE PROJET GUTENBERG ET LES LANGUES [FR]
+
+
+Le Projet Gutenberg propose essentiellement des livres numeriques en
+anglais, mais le multilinguisme est l'une de ses priorites. Le francais
+est la deuxieme langue du projet. Soixante langues sont representees en
+decembre 2010.
+
+# En 1990-1994
+
+A l'origine, les livres numeriques sont en anglais. Comme le Projet
+Gutenberg est lance a partir de l'Universite de l'Illinois (Etats-
+Unis), avec l'aide de volontaires anglophones, son but premier est de
+procurer des livres a la communaute anglophone, a savoir 95% des
+usagers de l'internet au debut des annees 1990. (Les usagers non
+anglophones atteignent les 50% en ete 2000, avec un pourcentage qui
+augmente regulierement ensuite.)
+
+Le Projet Gutenberg inspire aussi d'autres bibliotheques numeriques
+ailleurs, a savoir le Projekt Runeberg pour la litterature nordique
+(scandinave) en 1992 et le Projekt Gutenberg-DE pour la litterature
+allemande en 1994.
+
+Le Projekt Runeberg est la premiere bibliotheque numerique suedoise de
+livres du domaine public, et un partenaire du Projet Gutenberg. Elle
+est creee en decembre 1992 par Lysator, un club informatique
+d'etudiants, en collaboration avec la bibliotheque de l'Universite de
+Linkoeping (Suede), pour produire et organiser des versions
+electroniques gratuites de la litterature nordique classique. 200
+oeuvres sont disponibles en 1998, avec une liste de 6.000 auteurs
+nordiques en tant qu'outil de developpement des collections.
+
+Projekt Gutenberg-DE est la premiere bibliotheque numerique allemande
+de livres du domaine public, et egalement un partenaire du Projet
+Gutenberg. Plusieurs dizaines de textes peuvent etre lus en ligne en
+1998, avec une page web pour les textes courts et plusieurs pages - une
+par chapitre - pour les oeuvres plus longues. Une liste alphabetique
+d'auteurs et de titres est egalement disponible, ainsi qu'une courte
+biographie et bibliographie pour chaque auteur.
+
+# En 1997
+
+Le francais fut la deuxieme langue du Projet Gutenberg, et c'est
+toujours le cas en 2010.
+
+Les premiers livres disponibles en francais sont six oeuvres de
+Stendhal et deux oeuvres de Jules Verne, toutes mises en ligne debut
+1997.
+
+Les six oeuvres de Stendhal sont quatre recits: Les Cenci (publie en
+1837), Vittoria Accoramboni (1837), La Duchesse de Palliano (1838) et
+L'Abbesse de Castro (1839) - tous recits publies dans La revue des deux
+mondes - et deux romans: Le Rouge et le Noir (1830) et La Chartreuse de
+Parme (1839).
+
+Les deux romans de Jules Verne sont: De la terre a la lune (1865) et Le
+tour du monde en quatre-vingts jours (1873).
+
+A cette date, trois romans de Jules Verne sont deja disponibles en
+anglais: From the Earth to the Moon (titre original: De la terre a la
+lune), disponible en  septembre 1993; Around the World in 80 Days
+(titre original: Le tour du monde en quatre-vingts jours), disponible
+en janvier 1994; et 20,000 Leagues Under the Seas (titre original:
+Vingt mille lieues sous les mers, 1869-1870), disponible en septembre
+1994.
+
+Depuis la parution de ces premiers titres, Jules Verne a toujours fait
+partie des auteurs les plus telecharges, a la onzieme place dans le
+"Top 20" du Projet Gutenberg en decembre 1999 et a la sixieme place
+dans le "Top 100" des auteurs les plus telecharges durant les trente
+derniers jours a la date du 6 novembre 2010.
+
+A titre anecdotique, le premier recueil d'images disponible dans le
+Projet Gutenberg toutes langues confondues est French Cave Paintings
+(Peintures des cavernes en France), mis en ligne des avril 1995 (eBook
+#249), avec une version XHTML ajoutee en novembre 2000. Il s'agit de
+quatre photos de peintures paleolithiques retrouvees dans une grotte de
+l'Ardeche, un departement du sud-ouest de la France. Ces photos, sous
+copyright, ont ete mises a la disposition du Projet Gutenberg par Jean
+Clottes, conservateur general du patrimoine, pour pouvoir etre
+appreciees de tous.
+
+Disponible en 1997, l'eBook #1000 est La Divina Commedia (1321) de
+Dante Alighieri, en italien, sa langue originale.
+
+# En 1998
+
+En octobre 1997, Michael Hart annonce son intention d'intensifier la
+production de livres dans des langues autres que l'anglais. Debut 1998,
+le catalogue comprend quelques oeuvres en allemand, en espagnol, en
+francais (dix titres), en italien et en latin.
+
+Stendhal et Jules Verne sont suivis par Edmond Rostand avec Cyrano de
+Bergerac, publie en 1897 et disponible dans le Projet Gutenberg un
+siecle plus tard, en  mars 1998.
+
+# En 1999
+
+Disponible en mai 1999, l'eBook #2000 est Don Quijote (1605) de
+Cervantes, en espagnol, sa langue originale.
+
+En juillet 1999, Michael ecrit lors d'un entretien par courriel:
+"J'introduis une nouvelle langue par mois maintenant, et je vais
+poursuivre cette politique aussi longtemps que possible."
+
+# En 2000
+
+Disponible en decembre 2000, l'eBook #3000 est le volume 3 (1919) de A
+l'ombre des jeunes filles en fleurs de Marcel Proust, en francais, sa
+langue originale.

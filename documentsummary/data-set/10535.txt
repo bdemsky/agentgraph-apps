@@ -1,0 +1,29 @@
+10535.midi
+10535.pdf
+
+  -The final project I generated from the include source files.
+   The midi file is importable into other software.  The pdf
+   was created with an A4 paper size.
+
+10535.mp3
+
+  -The midi file played through a sequencer using real
+   Steinway piano samples.  Much nicer than the midi for those
+   who just want to hear what it should sound like.
+
+10535.ly
+
+  -The primary source file. Contains all the music markup.
+
+10535-book.tex
+
+  -A lilypond-book wrapper which allows us to generate a pdf
+   with the frontispiece and additional lyrics (like the one
+   included here).
+
+10535-frontis.jpg
+10535-frontis.eps
+
+  -The frontispiece image used by 10535-book.tex. The
+   jpg is the original, but the software needs eps format to
+   compile.

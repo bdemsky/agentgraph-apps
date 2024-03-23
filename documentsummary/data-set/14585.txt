@@ -1,0 +1,170 @@
+Chapter 1: The ERPANET Project
+The European Commission and Swiss Confederation funded ERPANET Project
+(1) (Electronic Resource Preservation and Access Network) works to
+enhance the preservation of cultural and scientific digital objects
+through raising awareness, providing access to experience, sharing
+policies and strategies, and improving practices. To achieve these
+goals ERPANET is building an active community of members and actors,
+bringing together memory organisations (museums, libraries and
+archives), ICT and software industry, research institutions, government
+organisations, entertainment and creative industries, and commercial
+sectors. ERPANET constructs authoritative information resources on
+state-of-the-art developments in digital preservation, promotes
+training, and provides advice and tools.
+
+ERPANET consists of four partners and is directed by a management
+committee, namely Seamus Ross (HATII, University of Glasgow; principal
+director), Niklaus Bütikofer (Schweizerisches Bundesarchiv), Hans
+Hofman (Nationaal Archief/National Archives of the Netherlands), and
+Maria Guercio (ISTBAL, University of Urbino). At each of these nodes a
+content editor supports their work, and Peter McKinney serves as a
+co-ordinator to the project. An Advisory Committee with experts from
+various organisations, institutions, and companies from all over Europe
+gives advice and support to ERPANET.
+
+
+
+Chapter 2: Scope of the Case Studies
+While theoretical discussions on best practice call for urgent action
+to ensure the survival of digital information, it is organisations and
+institutions that are leading the drive to establish effective digital
+preservation strategies (2). In order to understand the processes these
+organisations are undertaking, ERPANET is conducting a series of case
+studies in the area of digital preservation. In total, sixty case
+studies, each of varying size, will investigate awareness, strategies,
+and technologies used in an array of organisations. It is anticipated
+that upwards of 500 organisations, institutions and public bodies will
+eventually contribute to this research. The resulting corpus should
+make a substantial contribution to our knowledge of practice in digital
+preservation, and form the foundation for theory building and the
+development of methodological tools. The value of these case studies
+will come not only from the breadth of sectors included, but also
+through the depth at which they will explore the issues.
+
+ERPANET is deliberately and systematically approaching disparate
+sectors from industry and business to facilitate discussion in areas
+that have traditionally been unconnected. With these case studies
+ERPANET will broaden the scope and understanding of digital
+preservation through research and discussion. The case studies will be
+published to improve the approaches and solutions being developed and
+to reduce the redundancy of effort. The interviews are identifying
+current practice not only in-depth within specific sectors, but also
+cross-sectorally: what can the publishing sector learn from the
+aeronautical sector? Eventually we aim to use this comparative data to
+produce intra-sectoral overviews.
+This cross-sectoral fertilisation is a main focus of ERPANET as laid
+out in its Digital Preservation Charter (3). It is of primary
+importance that disparate groups are given a mechanism through which to
+come together as best practices for digital preservation are
+established in each sector.
+
+Aims
+The principal aims of the study are to:
+* build a picture of methods and match against context to produce best
+practices;
+* accumulate and make accessible information about practices;
+* identify issues for further research;
+* enable cross-sectoral practice comparisons;
+* enable the development of assessment tools;
+* create material for training seminars and workshops; and,
+* develop contacts.
+
+Potential sectors have been selected to represent a wide scope of
+information production and digital preservation activity. Each sector
+may present a unique perspective on digital preservation.
+Organisational and sectoral requirements, awareness of digital
+preservation, resources available, and the nature of the digital object
+created place unique and specific demands on organisations. Each of the
+case studies is being balanced to ensure a range of institutional
+types, sizes, and locations.
+
+The main areas of investigation included:
+* perception and awareness of risk associated with information loss;
+* understanding how digital preservation affects the organisation;
+* identifying what actions have been taken to prevent data loss;
+* the process of monitoring actions; and,
+* mechanisms for determining future requirements.
+
+Within each section, the questions were designed to bring
+organisational perceptions and practices into focus. Questions were
+aimed at understanding impressions held on digital preservation and the
+impact that it has had on the respective organisation, exploring the
+awareness in the sector of the issues and the importance that it was
+accorded, and how it affected organisational thinking. The participants
+were asked to describe, what in their views, were the main problems
+associated with digital preservation and what value information
+actually had in the sector. Through this the reasons for preserving
+information as well as the risks associated with not preserving it
+became clear.
+
+The core of the questionnaire focused on the actions taken at corporate
+level and sectoral levels in order to uncover policies, strategies, and
+standards currently employed to tackle digital preservation concerns,
+including selection, preservation techniques, storage, access, and
+costs. Questions allowed participants to explore the future commitment
+from their organisation and sector to digital preservation activities,
+and where possible to relate their existing or planned activities to
+those being conducted in other organisations with which they might be
+familiar.
+
+Ten organisations in each sector, and three people within each
+organisation are targeted for each study. In reality this proved to be
+problematic. Even when organisations are identified and interviews
+timetabled, targets often withdrew just before we began the interview
+process. Some withdrew after seeing the data collection instrument, due
+in part to the time/effort involved, and others (we suspect) dropped
+out because they realised that the expertise was not available within
+their organisation to answer the questions. The perception of risks
+that might arise through contributing to these studies worried some
+organisations, particularly those from sectors where competitive
+advantage is imperative, or liability and litigation issues especially
+worrying. Non-disclosure agreements that stipulated that we would
+neither name an organisation nor disclose any information that would
+enable readers to identify them were used to reduce risks associated
+with contributing to this study. In some cases the risk was still
+deemed too great and organisations withdrew.
+
+Chapter 3: Method of Working
+Initial desk-based sectoral analysis provides ERPANET researchers with
+essential background knowledge. They then conduct the primary research
+by interview. In developing the interview instrument, the project
+directors and editors reviewed other projects that had used interviews
+to accumulate evidence on issues related to digital preservation. Among
+these the methodologies used in the Pittsburgh Project and InterPARES I
+for target selection and data collection were given special attention.
+The Pittsburgh approach was considered too narrow a focus and provided
+insufficient breadth to enable full sectoral comparisons. On the other
+hand, the InterPARES I data collection methodology proved much too
+detailed and lengthy, which we felt might become an obstacle at the
+point of interpretation of the data. Moreover, it focused closely on
+recordkeeping systems within organisations.
+
+The ERPANET interview instrument takes account of the strengths and
+weaknesses from both, developing a more focussed questionnaire designed
+to target a range of strategic points in the organisations under
+examination. The instrument (4) was created to explore three main areas
+of enquiry within an organisation: awareness of digital preservation
+and the issues surrounding it; digital preservation strategies (both in
+planning and in practice); and future requirements within the
+organisation for this field. Within these three themes, distinct layers
+of questions elicit a detailed discovery of the state of the entire
+digital preservation process within participants' institutions. Drawing
+on the experience that the partners of ERPANET have in this method of
+research, another important detail has been introduced. Within
+organisations, three categories of employee were identified for
+interview: an Information Systems or Technology Manager, Business
+Manager, and Archivist / Records Manager. In practice, this usually
+involved two members of staff with knowledge of the organisation's
+digital preservation activities, and a high level manager who provided
+an overview of business and organisational issues. This methodology has
+allowed us to discover the extent of knowledge and practice in
+organisations, to understand the roles of responsibility and problem
+ownership, and to appreciate where the drive towards digital
+preservation is initiated within organisations.
+
+The task of selecting the sectors for the case studies and of
+identifying the respective companies to be studied is incumbent upon
+the management board. They compiled a first list of sectors at the very
+beginning of the project. But sector and company selection is an
+ongoing process, and the list is regularly updated and complemented.
+The Directors are assisted in this task by an advisory committee (5).

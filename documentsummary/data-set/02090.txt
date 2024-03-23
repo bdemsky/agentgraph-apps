@@ -1,0 +1,140 @@
+Peach Blossom Shangri-la (Tao Hua Yuan Ji)
+
+
+By
+
+Tao Yuan Ming
+
+
+Translated and proofed by Rick Davis and David Steelman
+
+
+
+Note from the translators:  This file contains this
+well-known Chinese story in both English translation and the
+Chinese original. If your computer is not set up to read BIG5
+encoding, the Chinese will appear as garbage characters.
+
+
+Updateŕs note: This file has been recoded to UTF8.
+
+
+
+Peach Blossom Shangri-la (Tao Hua Yuan Ji)
+
+By Tao Yuanming [1]
+
+During the Taiyuan era [2] of the Jin Dynasty [3] there was a
+man of Wuling [4] who made his living as a fisherman.  Once
+while following a stream he forgot how far he had gone. He
+suddenly came to a grove of blossoming peach trees. It lined
+both banks for several hundred paces and included not a
+single other kind of tree. Petals of the dazzling and
+fragrant blossoms were falling everywhere in profusion.
+Thinking this place highly unusual, the fisherman advanced
+once again in wanting to see how far it went.
+
+The peach trees stopped at the stream's source, where the
+fisherman came to a mountain with a small opening through
+which it seemed he could see light.  Leaving his boat, he
+entered the opening.  At first it was so narrow that he could
+barely pass, but after advancing a short distance it suddenly
+opened up to reveal a broad, flat area with imposing houses,
+good fields, beautiful ponds, mulberry trees, bamboo, and the
+like.  The fisherman saw paths extending among the fields in
+all directions, and could hear the sounds of chickens and
+dogs.  Men and women working in the fields all wore clothing
+that looked like that of foreign lands.  The elderly and
+children all seemed to be happy and enjoying themselves.
+
+The people were amazed to see the fisherman, and they asked
+him from where he had come.  He told them in detail, then the
+people invited him to their home, set out wine, butchered a
+chicken [5], and prepared a meal.  Other villagers heard
+about the fisherman, and they all came to ask him questions.
+Then the villagers told him, "To avoid the chaos of war
+during the Qin Dynasty [6], our ancestors brought their
+families and villagers to this isolated place and never left
+it, so we've had no contact with the outside world."  They
+asked the fisherman what the present reign was.  They were
+not even aware of the Han Dynasty [7], let alone the Wei [8]
+and Jin.  The fisherman told them everything he knew in great
+detail, and the villagers were amazed and heaved sighs.  Then
+other villagers also invited the fisherman to their homes,
+where they gave him food and drink.  After several days
+there, the fisherman bid farewell, at which time some
+villagers told him, "It's not worth telling people on the
+outside about us." [9]
+
+The fisherman exited through the opening, found his boat, and
+retraced his route while leaving markers to find this place
+again.  Upon his arrival at the prefecture town he went to
+the prefect and told him what had happened.  The prefect
+immediately sent a person to follow the fisherman and look
+for the trail markers, but they got lost and never found the
+way.
+
+Liu Ziji [10] of Nanyang [11] was a person of noble
+character.  When he heard this story he was happy and planned
+to visit the Shangri-la, but he died of illness before he
+could accomplish it.  After that no one else ever looked for
+the place.
+
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+
+Translator's Notes
+
+[1]  Chinese nature poet, c. 365-427.  This prose story is
+one of the poet's most well-known works.
+
+[2]  376-396.
+
+[3]  265-420 (actually two sequential dynasties, the
+"Western" and the "Eastern").
+
+[4]  A place in present-day Hunan Province.
+
+[5]  "...set out wine, butchered a chicken": A stock phrase
+meaning to entertain a guest lavishly.
+
+[6]  221-206 B.C.
+
+[7]  206 B.C. to A.D. 220.
+
+[8]  A.D. 220-265.
+
+[9]  The villagers would just as soon keep their existence secret.
+
+[10]  A retired scholar of the Jin Dynasty.
+
+[11]  A place in present-day Henan Province.
+
+
+This translation is based on the SiKuQuanShu text with
+editorial emendations and punctuation by the translators. It
+was done by Rick Davis (Japan) with help from David Steelman
+(Taiwan).
+
+
+
+The original Chinese:
+
+桃花源記
+
+陶淵明
+
+晉太元中武陵人捕魚為業。緣溪行﹐忘路之遠近。忽逢
+桃花林﹐夾岸數百步中無雜樹﹐芳華鮮美落英繽紛。漁
+人甚異之。復前行欲窮其林。林盡水源便得一山。山有
+小口仿佛若有光。便捨船從口入。初極狹纔通人。復行
+數十步豁然開朗。土地平礦屋舍儼然。有良田美池桑竹
+之屬。阡陌交通雞犬相聞。其中往來種作。男女衣著悉
+如外人。黃髮垂髫並怡然自樂。見漁人乃大驚問所從來。
+具答之。便要還家為設酒殺雞作食。村中聞有此人咸來
+問訊。自云先世避秦時亂率妻子邑人。來此絕境不復出
+焉。遂與外人間隔。問今是何世乃不知有漢無論魏晉。
+此人一一為具言所聞皆歎惋。餘人各復延至其家皆出酒
+食。停數日辭去。此中人語云不足為外人道也。既出得
+其船便扶向路處處誌之。及郡下詣太守說如此。太守即
+遣人隨其往。尋向所誌遂迷不復得路。南陽劉子驥高尚
+士也。聞之欣然規往未果尋病終。後遂無問津者。

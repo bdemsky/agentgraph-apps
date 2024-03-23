@@ -1,0 +1,289 @@
+The dimensions of the debugging template and the keypunch card
+are 7 3/8" by 3 1/4".
+
+The debugging template contains two sections on the front and
+three sections on the back. The back is labelled vertically along
+the left-hand edge: IBM J33837.
+
+The front of the keypunch card is labelled vertically along the
+right-hand edge: PRYOR 5081. Holes punched in the card are
+represented in the text by [].
+
+
+
+
+SYSTEM 360
+
+RPG DEBUGGING TEMPLATE
+
+
+
+   60-    COMMENTS
+
+   58-59  ZERO BLK EQ |           |       |
+  --------------------|           |       |
+   56-57        -  LO |RESULT IND.|COMPARE|
+  --------------------|           |       |
+   54-55        +  HI |           |       |
+
+   53     H  HALF ADJUST
+
+   52     DECIMAL POS.
+
+   49-51  FIELD LGTH
+
+   43-48  RESULT FIELD
+
+   39-42
+  ------  FACTOR 2
+   33-38
+
+   28-32  OPER.
+
+   24-27
+  ------  FACTOR 1
+   18-23
+
+   16-17          | I  |
+  --------        | N  |
+   15     N    A  | D  |
+  -------------N--| I  |
+   13-14       D  | C  |
+  --------        | A  |
+   12     N    A  | T  |
+  -------------N--| O  |
+   10-11       D  | R  |
+  --------        | S  |
+    9     N       |    |
+
+    7-8   L0-L9  LR  CONTROL LEVEL
+
+    6     CALCULATION SPECS.
+
+
+
+
+   45-70  CONSTANT OR EDIT WORD
+
+   44     P  PACKED
+
+   40-43  END POS IN OUTPUT RECORD
+
+   39     B  BLANK AFTER
+
+   38     Z  ZERO SUPP.
+
+   32-37  FIELD NAME
+
+   30-31          | I  |
+  --------        | N  |
+   29     N    A  | D  |
+  -------------N--| I  |
+   27-28       D  | C  |
+  --------        | A  |
+   26     N    A  | T  |
+  -------------N--| O  |
+   24-25       D  | R  |
+  --------        | S  |
+   23     N       |    |
+
+   21-22  AFTER   |    |
+  ----------------|SKIP|
+   19-20  BEFORE  |    |
+
+   18     AFTER   |    |
+  ----------------| SP |
+   17     BEFORE  |    |
+
+   16     STACKER
+
+   15     H D T
+
+    7-14  FILE NAME
+
+    6     OUTPUT SPECS.
+
+
+
+
+   66-    COMMENTS
+
+   60-65  EXTENT EXIT FOR DAM
+
+   54-59  NAME OF LABEL EXIT
+
+   53     SNE  LABELS
+
+   47-52  SYMBOLIC DEVICE
+
+   40-46  DEVICE
+
+   39     EL  EXTENSION CODE
+
+   35-38  KEY FIELD START LOCATN.
+
+   33-34  OVERFLOW INDICATOR
+
+   32     IDT  TYPE OF FILE ORG.
+
+   31     KI  RECORD ADDRESS TYPE
+
+   29-30  LENGTH OF RECORD ADDRESS FIELD
+
+   28     LR  MODE OF PROCESSING
+
+   24-27  RECORD LENGTH
+
+   20-23  BLOCK LENGTH
+
+   19     FV  FILE FORMAT
+
+   18     AD  SEQUENCE
+
+   17     E  END OF FILE
+
+   16     PSCRT  FILE DESIGNATION
+
+   15     IOUC  FILE TYPE
+
+    7-14  FILE NAME
+
+    6     FILE DESCRIPTION SPECS.
+
+
+
+
+   58-    COMMENTS
+
+   57     AD  SEQUENCE
+
+   56     DECIMAL POS.
+
+   55     P  PACKED
+
+   52-54  LENGTH OF TABLE ENTRY
+
+   46-51  TABLE NAME
+
+   45     AD SEQUENCE
+
+   44     DECIMAL POS.
+
+   43     P  PACKED
+
+   40-42  LENGTH OF TABLE ENTRY
+
+   36-39  NO. OF TABLE ENTRIES PER TABLE
+
+   33-35  NO. OF TABLE ENTRIES PER RECORD
+
+   27-32  TABLE NAME
+
+   19-26  TO FILE NAME
+
+   11-18  FROM FILE NAME
+
+    9-10  NUMBER OF THE CHAINING FIELD
+
+    7- 8  RECORD SEQUENCE OF THE CHAINING FILE
+
+    6     FILE EXT. SPECS.
+
+
+
+
+   69-70  ZERO BLK |          |
+  -----------------|  FIELD   |
+   67-68  -        |INDICATORS|
+  -----------------|          |
+   65-66  +        |          |
+
+   63-64  FIELD RECORD RELATION
+
+   61-62  MI  MATCHING OR CHAINING
+
+   59-60  LI  CONTROL LEVELS
+
+   53-58  FIELD NAME
+
+   52     DECIMAL POSITIONS
+
+   48-51  TO   |        |
+  -------------| FIELD  |
+   44-47  FROM |LOCATION|
+
+   43     P  PACKED
+
+   42     STACKER SELECT
+
+   41     CHAR |   |   |
+  -------------|   | R |
+   40     CZD  |   | E |
+  -------------|   | C |
+   39     N    | 3 | O |
+  -------------|   | R |
+               |   | D |
+               |   |   |
+   35-38  POS. |   | I |
+  -----------------| D |
+   34     CHAR |   | E |
+  -------------|   | N |
+   33     CZD  |   | T |
+  -------------|   | I |
+   32     N    | 2 | F |
+  -------------|   | I |
+               |   | C |
+               |   | A |
+   28-31  POS. |   | T |
+  -----------------| I |
+   27     CHAR |   | O |
+  -------------|   | N |
+   26     CZD  |   |   |
+  -------------|   | C |
+   25     N    | 1 | O |
+  -------------|   | D |
+               |   | E |
+               |   | S |
+   21-24  POS. |   |   |
+
+   19-20  RECORD IDENT. INDIC.
+
+   18     OPTION (O)
+
+   17     NUMBER (1-N)
+
+   15-16  SEQUENCE
+
+    7-14  FILE NAME
+
+    6     INPUT SPECS.
+
+
+
+
+
+   A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z  0  1  2  3  4  5  6  7  8  9  .  $  ,  #  @  %  *  <  +  ,  c  (  !
+  [] [] [] [] [] [] [] [] []                                                                                  []                   [] []    [] []
+
+                             [] [] [] [] [] [] [] [] []                                                          []             []       []       []
+
+   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 [] [] [] [] [] [] [] [] []  0  0  0  0  0  0  0  0  0  0  0 []  0  0 []  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80
+  []  1  1  1  1  1  1  1  1 []  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1 []  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+
+   2 []  2  2  2  2  2  2  2  2 []  2  2  2  2  2  2  2 []  2  2  2  2  2  2  2  2  2 []  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2 []  2 []  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2  2
+
+   3  3 []  3  3  3  3  3  3  3  3 []  3  3  3  3  3  3  3 []  3  3  3  3  3  3  3  3  3 []  3  3  3  3  3  3 [] [] [] []  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3  3
+
+   4  4  4 []  4  4  4  4  4  4  4  4 []  4  4  4  4  4  4  4 []  4  4  4  4  4  4  4  4  4 []  4  4  4  4  4  4  4  4  4 [] [] [] []  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4  4
+
+   5  5  5  5 []  5  5  5  5  5  5  5  5 []  5  5  5  5  5  5  5 []  5  5  5  5  5  5  5  5  5 []  5  5  5  5  5  5  5  5  5  5  5  5  5 []  5 []  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5
+
+   6  6  6  6  6 []  6  6  6  6  6  6  6  6 []  6  6  6  6  6  6  6 []  6  6  6  6  6  6  6  6  6 []  6  6  6  6  6  6  6  6  6  6  6 []  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6
+
+   7  7  7  7  7  7 []  7  7  7  7  7  7  7  7 []  7  7  7  7  7  7  7 []  7  7  7  7  7  7  7  7  7 []  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7  7
+
+   8  8  8  8  8  8  8 []  8  8  8  8  8  8  8  8 []  8  8  8  8  8  8  8 []  8  8  8  8  8  8  8  8  8 []  8 [] [] [] [] [] [] [] [] [] [] [] [] []  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8  8
+
+   9  9  9  9  9  9  9  9 []  9  9  9  9  9  9  9  9 []  9  9  9  9  9  9  9 []  9  9  9  9  9  9  9  9  9 []  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9  9
+   1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80

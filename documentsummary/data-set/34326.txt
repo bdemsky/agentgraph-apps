@@ -1,0 +1,151 @@
+words in bold. Words surrounded by underscores, like _this_, signifies
+words in italics.]
+
+
+
+
+A New Hylid Frog from Eastern Mexico
+
+By
+
+EDWARD H. TAYLOR
+
+
+A small collection of Mexican reptiles and amphibians recently acquired
+by the University of Kansas Natural History Museum contains five
+specimens of a species of the genus _Hyla_ (_sensu lato_) which is here
+described as new.
+
+
+~Hyla proboscidea~ sp. nov.
+
+_Type._--University of Kansas Museum of Natural History, No. 23626,
+collected 2 km. west of Jico, Veracruz, Mexico, at an elevation of 4,200
+ft., Oct. 28, 1946, by Walter W. Dalquest.
+
+_Paratypes._--Nos. 23624, 23625, 23627, 23628, collected with the type.
+
+_Diagnosis._--A medium sized member of the genus with known maximum
+length of male, 57 mm. Canthus rostralis well defined; tip of snout with
+a bulbous projection; fingers more than one-third webbed, foot nearly
+completely webbed; tympanum distinct; skin smooth above, granular below;
+very prominent inner metatarsal tubercle, small outer tubercle;
+tibiotarsal articulation reaches to nostril; a well-defined outer tarsal
+fold; anal opening ventral, covered by a free triangular flap; pupil of
+eye horizontal.
+
+_Description of the type._--Head longer than broad, the distance between
+the eye and nostril slightly greater than distance between nostril and
+tip of snout; canthus rostralis sharply defined, continued to above
+nostril; upper part of loreal region sloping abruptly, lower part
+sloping more gently to edge of lip; area in front of nostril somewhat
+swollen, the nostril large, directed strongly backward; tip of snout
+forming a short rounded proboscis; upper jaw rather strongly overhanging
+lower jaw.
+
+Width of an upper eyelid contained in interorbital distance about 1-1/3
+times; horizontal diameter of eye about equal to distance between eye
+and nostril, about 1-1/3 times diameter of tympanum; tympanum distinct,
+its distance from orbit equal to its diameter, overhung by a glandular
+fold running back from eye.
+
+Choanae large; vomerine teeth in two elevated patches which lie between,
+and reach the posterior level, of choanae, the patches closer to each
+other than to choanae; tongue rather small, subcircular, not or but very
+indistinctly notched behind, not at all free behind; opening to vocal
+sacs behind level of tongue, the openings a short slit directed
+backwards. (Vocal sacs not evident externally in type or paratypes.)
+
+Skin of dorsal surfaces generally smooth (under magnification surface
+minutely corrugated and wrinkled); ventral surface of abdomen, the
+thighs, and lower part of lateral surface of body strongly granulate,
+the granules unequal in size and elevation; breast, chin, and under side
+of arm with sparse granules or tubercles.
+
+Anal opening ventral, covered by a small, free, triangular flap; a small
+thickened fold, slightly free, on each side of anus partly covered by
+triangular flap.
+
+[Illustration: _Measurements_ (in mm.).--Snout to vent, 58; leg, 86;
+head length, 20; head width, 18.6.]
+
+Arms rather short, upper arm slender, forearm much thickened; a small
+axillary web present; disks on three outer fingers distinctly larger
+than tympanum, of first finger equal to or somewhat smaller than
+tympanum; outer fingers, between one-third and one-half webbed; on inner
+fingers webbing less than one-third; first finger more or less opposed
+to other three, its base widened, and the upper surface covered by a
+large patch of minute dark, horn-colored nuptial asperities, that extend
+to near the terminal disk; subarticular tubercles strongly elevated with
+numerous supernumerary tubercles on palm; a somewhat enlarged elevated
+palmar tubercle; under surface of forearm with a row of distinct
+tubercles; other smaller scattered granules present. Toes more than
+four-fifths webbed, the membrane reaching the base of the terminal
+disks, on one side at least, of all toes save fourth; subarticular
+tubercles strongly elevated, with numerous supernumerary tubercles on
+sole; a large elevated inner metatarsal tubercle; a small outer
+tubercle; a continuous, well-defined, tarsal fold extending entire
+length of tarsus. Tibiotarsal articulation reaches nostril when leg is
+brought forward.
+
+_Color and marking._--General color of type (preserved in formalin, then
+transferred to alcohol) dull grayish purple, darker anteriorly and
+somewhat lighter and more mottled posteriorly; color very much lighter
+on sides with a few cream, dark-edged spots in groin and on sides of
+abdomen; front and back surfaces of thigh and shank with some darker and
+lighter flecking that is continued more or less on the foot. When
+submerged in water, very dim dark spots or bars visible on limbs;
+ventral surface dirty brownish flesh, without markings.
+
+_Variation._--The series consists of five adult male specimens. It is
+presumed that the female is considerably larger, and may lack the nasal
+proboscis which I suspect is a secondary sexual character.
+
+There are some differences in the shade of coloring in the preserved
+specimens, some being darker, some lighter than the type. In two the
+lateral dark-edged, cream spots extend to the axilla, and the light and
+dark markings on the front and back surfaces of the leg are much more
+distinct in most of the specimens than in the type. When the specimens
+are submerged in water, the black bars on the limbs are evident in all
+specimens. The tympanum is sometimes darker, sometimes lighter than its
+surroundings.
+
+In the field notes of Mr. Dalquest I find the statement that the color
+in life is bright yellow, which presumably applies to all of the
+specimens. No trace of this color remains at the present time.
+
+The ventral granules of some of the paratypes are very unequal in
+elevation, some being elongated, nipplelike.
+
+The following table gives the variation in measurements of the type and
+paratypes:
+
+
+Measurements of _Hyla proboscidea_ in mm.
+
+=======+=======+========+=======+=====+=====+==========+==========
+       | Snout |        |       |     |     | Foot and |
+       |  to   |  Head  | Head  | Arm | Leg | longest  |   Eye
+       | vent  | length | width |     |     |   toe    | diameter
+-------+-------+--------+-------+-----+-----+----------+----------
+23626  |  58   |  20    | 18.6  | 29  | 86  |   39     |    5
+23625  |  56   |  19    | 18    | 29  | 81  |   37     |    5
+23627  |  53   |  18.5  | 17    | 30  | 81  |   35     |    5
+23624  |  50   |  16.8  | 15.5  | 26  | 70  |   29.8   |    5
+23628  |  50   |  17    | 16    | 28  | 71  |   30     |    5
+-------+-------+--------+-------+-----+-----+----------+----------
+
+_Relationship._--It would appear that the relationship of this species
+is with _Hyla bistincta_, a widespread Mexican species likewise
+occurring in the same general area but at a much higher elevation. It
+also has an elongated flap which carries the anal opening nearly to the
+level of venter but the terminal part lacks the triangular flap. There
+is no prolongation of the snout tip. There are also numerous other
+differences, so that it would be difficult to confuse the two forms.
+
+_Remarks._--This adds another very distinctive species to the
+Veracrucian fauna. Despite the fact that this state has probably been
+explored at greater length than any other Mexican state it still is a
+likely place for the discovery of novelties.
+
+     _Transmitted April 8, 1948._

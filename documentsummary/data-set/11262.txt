@@ -1,0 +1,2 @@
+RTF is Rich Text Format, and is readable in nearly any
+modern word processing program.

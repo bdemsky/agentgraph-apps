@@ -1,0 +1,115 @@
+premiers pas (avec un suivi grâce à la liste PGCanada). Les choses sont en bonne
+voie pour un Projet Gutenberg au Portugal et aux Philippines.
+
+
+3. LE DOMAINE PUBLIC, UN VASTE SUJET
+
+
+Malgré l'enthousiasme et la ténacité de ses centaines de volontaires, la tâche
+du Projet Gutenberg n’est guère facilitée par les coups de boutoir portés au
+domaine public. A une époque lointaine, 50% des oeuvres appartenaient au domaine
+public, et pouvaient donc être librement utilisées par tous. Aujourd’hui, 99%
+des oeuvres sont régies par le droit d’auteur, et certains aimeraient que ce
+pourcentage passe à 100%.
+
+Dans la section Copyright HowTo, le Projet Gutenberg détaille les calculs à
+faire pour déterminer si un titre publié aux Etats-Unis appartient ou non au
+domaine public. Les oeuvres publiées avant 1923 sont soumises au droit d’auteur
+pendant 75 ans à partir de leur date de publication (elles sont tombées dans le
+domaine public). Les oeuvres publiées entre 1923 et 1977 sont soumises au droit
+d’auteur pendant 95 ans à partir de leur date de publication (rien ne tombera
+dans le domaine public avant 2019). Une oeuvre publiée à partir de 1998 est
+soumise au droit d’auteur pendant 70 ans à partir de la date du décès de
+l’auteur s’il s’agit d’un auteur personnel (rien dans le domaine public avant
+2049), ou alors pendant 95 ans à partir de la date de publication (ou 120 ans à
+partir de la date de création) s’il s’agit d’un auteur collectif (rien dans le
+domaine public avant 2074). Tout ceci dans les grandes lignes. D’autres règles
+viennent s’ajouter à ces règles de base.
+
+Nettement plus contraignante que la précédente, la législation actuelle est
+entérinée par le Congrès le 27 octobre 1998. "Le copyright a été augmenté de 20
+ans", explique Michael Hart en juillet 1999. "Auparavant on devait attendre 75
+ans, on est maintenant passé à 95 ans. Bien avant, le copyright durait 28 ans
+(plus une extension de 28 ans si on la demandait avant l’expiration du délai)
+et, avant cela, le copyright durait 14 ans (plus une extension de 14 ans si on
+la demandait avant l’expiration du délai). Comme on le voit, on assiste à une
+dégradation régulière et constante du domaine public."
+
+Les dates évoquées par Michael sont:
+
+a) 1790, date de la main-mise de la Guilde des imprimeurs (les éditeurs de
+l’époque) sur l’imprimerie (le copyright de 14 ans est institué);
+
+b) 1909, date du renforcement du copyright pour contrer la réédition de vastes
+collections du domaine public sur les nouvelles presses à vapeur puis
+électriques (le copyright passe à 28 ans);
+
+c) 1976, date d'un nouveau durcissement du copyright suite l’apparition de la
+photocopieuse lancée par Xerox (le copyright passe à 50 ans après le décès de
+l’auteur);
+
+d) 1998, date d'un durcissement supplémentaire du copyright suite au
+développement rapide de l’internet (le copyright passe à 70 ans après le décès
+de l’auteur). Tout ceci encore une fois dans les grandes lignes, la loi sur le
+copyright ayant été retouchée onze fois durant les 40 dernières années.
+
+Pour ceux qui souhaitent creuser le sujet, les principaux textes législatifs
+sont les suivants:
+
+a) Le 1790 Copyright Act institue un copyright de 14 ans après la date de
+publication de l’oeuvre, plus une extension de 28 ans si celle-ci est demandée
+avant l’expiration du délai.
+
+b) Le 1831 Copyright Act institue un copyright de 28 ans après la date de
+publication de l’oeuvre, plus une extension de 14 ans si celle-ci est demandée
+avant l’expiration du délai, à savoir un total de 42 ans.
+
+c) En 1909, la période de l’extension est doublée, et passe à 28 ans. Le tout
+représente un total de 56 ans.
+
+d) Entre 1962 et 1974, tout copyright en cours avant le 19 septembre 1962
+n’expire pas avant le 31 décembre 1976.
+
+e) Le 1976 Copyright Act institue un copyright d’une durée de 50 ans après le
+décès de l’auteur.
+
+f) En 1998, les amendements apportés à cette loi allongent la durée du copyright
+à 70 ans après le décès de l’auteur.
+
+(Source: Trend of Maximum U.S. General Copyright Term, par Tom W. Bell, avec un
+graphique explicatif très clair.)
+
+Les amendements du 27 octobre 1998 portent un coup très rude aux bibliothèques
+numériques et scandalisent ceux qui les gèrent, à commencer par Michael Hart et
+John Mark Ockerbloom, créateur de The Online Books Page. Mais comment faire le
+poids vis-à-vis des majors de l’édition? Michael explique en juillet 1999: "J’ai
+été le principal opposant aux extensions du copyright, mais Hollywood et les
+grands éditeurs ont fait en sorte que le Congrès ne mentionne pas mon action en
+public. Les débats actuels sont totalement irréalistes. Ils sont menés par
+'l’aristocratie terrienne de l’âge de l’information' et servent uniquement ses
+intérêts. Un âge de l’information? Et pour qui?"
+
+En effet. Les instances politiques ne cessent de parler d’âge de l’information
+alors que, en parallèle, elles durcissent la réglementation relative à la mise à
+disposition de cette information. La contradiction est flagrante. Un
+durcissement similaire a touché l'Australie (ce qui a obligé le Project
+Gutenberg of Australia à retirer des dizaines de livres de ses collections) et
+plusieurs pays d'Europe. La règle générale est désormais un copyright de 70 ans
+après le décès de l'auteur, alors qu'il était auparavant de 50 ans. Ceci suite
+aux pressions exercées par les éditeurs de contenu, sous le prétexte
+d'"harmoniser" les lois nationales relatives au copyright pour répondre à la
+"mondialisation du marché".
+
+Donc, pour résumer ces considérations quelque peu austères mais combien utiles
+si on veut voir son livre favori mis en ligne, tout volontaire est requis de
+choisir de préférence un livre imprimé paru avant 1923. Il est également requis
+d'envoyer à Michael une photocopie des pages de titre du livre (recto et verso,
+y compris si la page verso est blanche), ces pages étant précieusement
+conservées au fil des ans pour justifier, si besoin, que le livre est bien du
+domaine public. Cette démarche initiale est obligatoire et elle est dénommée
+Copyright Clearance. La photocopie est désormais remplacée par l'envoi des pages
+scannées par le biais d'un logiciel présent sur le site. La réponse est envoyée
+par courriel quelques jours après. Il reste possible d'envoyer des photocopies
+par voie postale si on n'a vraiment pas d'autre solution.
+
+Une lueur d'espoir existe toutefois pour les livres parus après 1923. D’après

@@ -1,0 +1,153 @@
+surf the archive of the web by date. In 2004, there were 300 terabytes
+of data, with a growth of 12 terabytes per month. There were 65 billion
+webpages (from 50 million websites) in 2006, 85 billion webpages in
+2008, and 150 billion webpages in March 2010.
+
+April 1996 > OneLook Dictionaries, a "fast finder" in online
+dictionaries
+
+Robert Ware launched his website OneLook Dictionaries in April 1996 as
+a "fast finder" in hundreds of online dictionaries. On September 2,
+1998, the fast finder could "browse" 2,058,544 words in 425
+dictionaries covering various topics: business, computer/internet,
+medical, miscellaneous, religion, science, sports, technology, general,
+and slang. OneLook Dictionaries was provided as a free service by the
+company Study Technologies, in Englewood, Colorado. OneLook
+Dictionaries could browse 2.5 million words from 530 dictionaries in
+2000, 5 million words from 910 dictionaries in 2003, and 19 million
+words from 1,060 dictionnaries in 2010.
+
+Mai 1996 > DAISY, a standard for digital audiobooks
+
+Founded in May 1996, the DAISY Consortium (DAISY first meant "Digital
+Audio Information System" before meaning "Digital Accessible
+Information System") is an international consortium responsible for the
+transition from analog audiobooks available on tapes or cassettes to
+digital audiobooks. Its task was to define an international standard,
+to set up the conditions for the production exchange and use of
+audiobooks, and to organize the digitization of audiobooks worldwide.
+The DAISY standard is based on the DTB (Digital Talking Book) format,
+which allows the indexing of audiobooks with bookmarks for paragraphs,
+pages, and chapters, to make it easier to navigate through the books.
+
+October 1996 > The @folio project, for a novel reading device
+
+The @folio project is a reading device project conceived in October
+1996 by Pierre Schweitzer, an architect-designer living in Strasbourg,
+France. It is meant to download and read any text and/or illustrations
+from the web or hard disk, in any format, with no proprietary format
+and no DRM (Digital Rights Management). The technology of @folio is
+novel and simple. It is inspired from fax and tab file folders. The
+flash memory is "printed" like Gutenberg printed his books. The
+facsimile mode is readable as is for any content, from sheet music to
+mathematical or chemical formulas, with no conversion necessary,
+whether it is handwritten text, calligraphy, free hand drawing or non-
+alphabetical writing. An international patent was filed in April 2001.
+The French start-up iCodex was created in July 2002 to promote and
+develop @folio.
+
+1996 > A web version for the Ethnologue, a catalog of all living
+languages
+
+Published by SIL International (SIL was initially known as the Summer
+Institute of Linguistics) since 1951, and freely available on the web
+since 1996, The Ethnologue: Languages of the World is an encyclopedic
+reference work cataloging all of the world's known living languages. As
+stated by Barbara Grimes, its editor from 1971 to 2000: "It is a
+catalog of the languages of the world, with information about where
+they are spoken, an estimate of the number of speakers, what language
+family they are in, alternate names, names of dialects, other socio-
+linguistic and demographic information, dates of published Bibles, a
+name index, a language family index, and language maps." Thousands of
+linguists have contributed to the Ethnologue worldwide. A new edition
+is published approximately every four years. The 16th edition was
+published in 2009, in print (for sale) and on the web (for free), with
+information on the 6,909 living languages of our planet.
+
+1996 > Merriam-Webster Online
+
+Merriam-Webster, a main publisher of English-language dictionaries,
+launched the website "Merriam-Webster Online: The Language Center" in
+1996 to give free access to online resources stemming from its print
+publications: Webster Dictionary, Webster Thesaurus, Webster's Third (a
+lexical landmark), Guide to International Business Communications,
+Vocabulary Builder (with interactive vocabulary quizzes), and the
+Barnhart Dictionary Companion (hot new words). The goal of the website
+has also been to help track down definitions, spellings,
+pronunciations, synonyms, vocabulary exercises, and other key facts
+about words and language.
+
+1996 > A main French-language dictionary online
+
+The "Dictionnaire Universel Francophone en Ligne" (Universal French-
+Language Online Dictionary) was the web version of the "Dictionnaire
+Universel Francophone", published by Hachette, a major French
+publisher, and the AUPELF-UREF (which later became the AUF: Agence
+Universitaire de la Francophonie - University Agency of Francophony).
+The dictionary included not only standard French but also the French-
+language words and expressions used worldwide. French is an official
+language in 50 countries, for 500 million people worldwide. The AUF is
+a branch of the OIF (Organisation Internationale de la Francophonie --
+International Organization of French-speaking Countries), founded in
+1970 as an instrument of multilateral cooperation at the international
+level. As a side remark, English and French are the only official
+and/or cultural languages that are widely spread on five continents.
+
+1996 > Digitalization
+
+"Digitalization has made it possible to create, record, manipulate,
+combine, store, retrieve and transmit information and information-based
+products in ways which magnetic tape, celluloid and paper did not
+permit. Digitalization thus allows music, cinema and the written word
+to be recorded and transformed through similar processes and without
+distinct material supports. Previously dissimilar industries, such as
+publishing and sound recording, now both produce CD-ROM rather than
+simply books and records" (excerpt from the Proceedings of the
+Symposium on Multimedia Convergence, International Labor Organization,
+January 1997). In book publishing, digitization speeded up the
+editorial process, which used to be sequential, by allowing the copy
+editor, the image editor and the layout staff to work at the same time
+on the same book. In mainstream media, journalists and editors could
+now type in their articles online, and these articles went directly
+from text to layout, without being keyed in anymore by the production
+staff.
+
+January 1997 > The multimedia convergence
+
+Previously distinct information-based industries, such as printing,
+publishing, graphic design, media, sound recording and film making,
+were converging into one industry, with information as a common
+product. This trend was named "multimedia convergence", with a massive
+loss of jobs, and a serious enough issue to be tackled by the ILO
+(International Labor Organization) as early as 1997. The first ILO
+Symposium on Multimedia Convergence was held in January 1997 at the ILO
+headquarters in Geneva, Switzerland, with employers, unionists, and
+government representatives from all over the world. Some participants,
+mostly employers, demonstrated the information society was generating
+or would generate jobs. Other participants, mostly unionists,
+demonstrated there was a rise in unemployment worldwide, that should be
+addressed right away through investment, innovation, vocational
+training, computer literacy, retraining, and fair labor rights,
+including for teleworkers.
+
+April 1997 > E Ink, for the development of an electronic ink
+
+In April 1997, researchers at the MIT Media Lab (MIT: Massachusetts
+Institute of Technology) created the company E Ink to develop an
+electronic ink technology. Very briefly, the technology was the
+following one: caught between two sheets of flexible plastic, millions
+of micro-capsules, each of them containing black and white particles,
+are in suspension in a clear fluid. A positive or negative electric
+field indicates the desired group of particles on the surface, to view,
+modify or delete data. In July 2002, E Ink showed the prototype of the
+first screen using this technology. This screen was marketed in 2004.
+Other screens followed for various reading devices, including the first
+black and white flexible displays announcing the forthcoming
+"electronic paper".
+
+May 1997 > Barnes & Noble launched its own online bookstore
+
+Barnes & Noble, a leading bookseller with 481 stores nationwide in the
+United States, entered the world of e-commerce in 1997. Barnes & Noble
+first launched its America OnLine (AOL) website in March 1997 - as the
+exclusive bookseller for 12 million AOL customers -, before launching

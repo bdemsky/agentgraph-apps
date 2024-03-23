@@ -1,0 +1,7 @@
+Obvious punctuation repaired.
+
+The original text spelled "grievous" as "grevious." This was retained so
+as to not change the poem's meter.
+
+The original text had the contraction for "it is" (it's) in place of
+every possessive "its." This was corrected.
