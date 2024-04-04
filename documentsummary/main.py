@@ -1,6 +1,7 @@
 import agentgraph
 from pathlib import Path
 import os
+from openai import BadRequestError
 import sys
 import time
 
@@ -9,28 +10,32 @@ def writeData(scheduler, name: str, summary: str):
     nameout = fname + ".summary"
     filename = Path(dirname) / "summary" / nameout
     filename.parent.mkdir(exist_ok=True, parents=True)
+    if summary is None:
+        summary = ''
     filename.write_text(summary)
 
 
 class DocumentSummarizer:
     def __init__(self):
         self.model = agentgraph.LLMModel("http://127.0.0.1:8000/v1/", os.getenv("OPENAI_API_KEY"), "meta-llama/Llama-2-7b-chat-hf", "meta-llama/Llama-2-7b-chat-hf", 34000, useOpenAI=True)
-        self.scheduler = agentgraph.get_root_scheduler(self.model)
+        self.scheduler = agentgraph.getRootScheduler(self.model)
         self.prompts = agentgraph.Prompts("./documentsummary/prompts/")
-        self.sysprompt = self.prompts.load_prompt("System")
+        self.sysprompt = self.prompts.loadPrompt("System")
+        self.num_docs = 100
+        self.max_len = 4000
     
     def process(self, names: list):
         for name in names:
             path = Path(name)
             if path.is_dir():
-                for file in os.listdir(path):
+                for file in os.listdir(path)[:self.num_docs]:
                     self.handleFile(f'{name}/{file}')
             else:
                 self.handleFile(name)
 
     def handleFile(self, name: str):
         filename = Path(name)
-        #print(filename)
+        print(filename)
         
         if filename.is_file():
             with open(filename, "r") as f:
@@ -41,7 +46,9 @@ class DocumentSummarizer:
                     return
         else:
             return
-        var = self.scheduler.run_llm_agent(msg = self.sysprompt ** self.prompts.load_prompt("UserPrompt", {'contents' : content}))
+
+        content = content[:self.max_len]
+        var = self.scheduler.run_llm_Agent(msg = self.sysprompt ** self.prompts.loadPrompt("UserPrompt", {'contents' : content}))
         self.scheduler.run_python_agent(writeData, pos=[name, var])
     
 def main():
