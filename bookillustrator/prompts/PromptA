@@ -1,0 +1,10 @@
+Base on the following excerpt form the book {{title}}:
+"""
+{{excerpt}}
+"""
+Describe what should be in an illustration for the excerpt in one sentence. Phrases such as "the illustration" should not be used. A correct example would be "an old book on the table".  
+{%if prev_response %}
+Descriptions such as:
+{{prev_response}} 
+are considered inappropriate.
+{% endif %}
