@@ -1,4 +1,5 @@
 import agentgraph
+import itertools
 from pathlib import Path
 import os
 from openai import BadRequestError
@@ -16,23 +17,27 @@ def writeData(scheduler, name: str, summary: str):
 
 
 class DocumentSummarizer:
-    def __init__(self):
-        self.model = agentgraph.LLMModel("http://127.0.0.1:8000/v1/", os.getenv("OPENAI_API_KEY"), "meta-llama/Llama-2-7b-chat-hf", "meta-llama/Llama-2-7b-chat-hf", 34000, useOpenAI=True)
-        self.scheduler = agentgraph.getRootScheduler(self.model)
+    def __init__(self, model, max_len, num_docs):
+        self.model = model
+        self.scheduler = agentgraph.get_root_scheduler(self.model)
         self.prompts = agentgraph.Prompts("./documentsummary/prompts/")
-        self.sysprompt = self.prompts.loadPrompt("System")
-        self.num_docs = 100
-        self.max_len = 4000
+        self.sysprompt = self.prompts.load_prompt("System")
+        self.max_len = max_len
+        self.num_docs = num_docs
     
-    def process(self, names: list):
+    def walk_files(self, names: list):
         for name in names:
             path = Path(name)
             if path.is_dir():
-                for file in os.listdir(path)[:self.num_docs]:
-                    self.handleFile(f'{name}/{file}')
+                for file in os.listdir(path):
+                    yield f'{name}/{file}'
             else:
-                self.handleFile(name)
+                yield name
 
+    def process(self, names: list):
+        for name in itertools.islice(self.walk_files(names), self.num_docs):
+            self.handleFile(name)
+       
     def handleFile(self, name: str):
         filename = Path(name)
         print(filename)
@@ -48,11 +53,13 @@ class DocumentSummarizer:
             return
 
         content = content[:self.max_len]
-        var = self.scheduler.run_llm_Agent(msg = self.sysprompt ** self.prompts.loadPrompt("UserPrompt", {'contents' : content}))
+        var = self.scheduler.run_llm_agent(msg = self.sysprompt ** self.prompts.loadPrompt("UserPrompt", {'contents' : content}))
         self.scheduler.run_python_agent(writeData, pos=[name, var])
     
 def main():
-    summarizer = DocumentSummarizer()
+    model = agentgraph.LLMModel("http://127.0.0.1:8000/v1/", os.getenv("OPENAI_API_KEY"), "meta-llama/Llama-2-7b-chat-hf", "meta-llama/Llama-2-7b-chat-hf", 34000, useOpenAI=True)
+    
+    summarizer = DocumentSummarizer(model, 4000, 100)
     summarizer.process(sys.argv[1:]) # dont summarize the module itself
     summarizer.scheduler.shutdown() 
 

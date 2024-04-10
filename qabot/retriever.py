@@ -23,7 +23,7 @@ class Retriever:
 
 class FAISSRetriever(Retriever):
 
-    def __init__(self, index_path: str = None, override: bool = False, *args):
+    def __init__(self, index_path: str, override: bool, *args):
         super().__init__(*args)
         # avoid taking up the gpu
         self.transformer = SentenceTransformer("all-MiniLM-L6-v2", device='cpu')
@@ -31,7 +31,7 @@ class FAISSRetriever(Retriever):
         self.index = None 
         if not override:
             self.index = self.load_index(index_path)
-            if self.index.ntotal != len(self.documents):
+            if self.index is not None and self.index.ntotal != len(self.documents):
                 print(f"incompatible index dimensions: loaded {self.index.ntotal} but needs {len(self.documents)}")
                 self.index = None
 

@@ -16,21 +16,25 @@ def writeData(scheduler, name: str, content: str):
     filename.write_text(content)
 
 class QABot:
-    def __init__(self, dataset_path: str, index_path: str, override: bool):
-        self.max_len = 4000
-        self.num_docs = 100
-        self.k = 1
+    def __init__(self, model, max_len, num_docs, k):
+        self.max_len = max_len
+        self.num_docs = num_docs
+        self.k = k
         
-        self.model = agentgraph.LLMModel("http://127.0.0.1:8000/v1/", os.getenv("OPENAI_API_KEY"), "meta-llama/Llama-2-7b-chat-hf", "meta-llama/Llama-2-7b-chat-hf", 34000, useOpenAI=True)
-        # self.model = agentgraph.LLMModel("https://demskygroupgpt4.openai.azure.com/", os.getenv("OPENAI_API_KEY"), "GPT-35-TURBO", "GPT-35-TURBO", 34000)
+        self.model = model
         self.scheduler = agentgraph.getRootScheduler(self.model)
         self.prompts = agentgraph.Prompts("./qabot/prompts/")
         self.systemp = self.prompts.loadPrompt("System")
-        
+        self.dataset_path = None
+        self.documents = []
+        self.questions = []
+        self.retriever = None 
+        self.qadict = agentgraph.VarDict()
+    
+    def loadData(self, dataset_path: str, index_path: str = None, override: bool = False):
         self.dataset_path = dataset_path
         self.documents, self.questions = self._loadNQDataset(dataset_path)
         self.retriever = self.scheduler.runPythonAgent(lambda _ : [FAISSRetriever(index_path, override, self.documents)], numOuts=1)
-        self.qadict = agentgraph.VarDict()
 
     def _loadNQDataset(self, path) -> tuple[list[str], list[str]]:
         documents, questions = [], []
@@ -81,7 +85,11 @@ def main():
                         help="whether to override existing faiss index. Only used if index exists at index_path")
     args = parser.parse_args()
 
-    bot = QABot(args.dataset_path, args.index_path, args.override)
+    model = agentgraph.LLMModel("http://127.0.0.1:8000/v1/", os.getenv("OPENAI_API_KEY"), "meta-llama/Llama-2-7b-chat-hf", "meta-llama/Llama-2-7b-chat-hf", 34000, useOpenAI=True)
+    # model = agentgraph.LLMModel("https://demskygroupgpt4.openai.azure.com/", os.getenv("OPENAI_API_KEY"), "GPT-35-TURBO", "GPT-35-TURBO", 34000)
+    
+    bot = QABot(model, 4000, 100, 1)
+    bot.loadData(args.dataset_path, args.index_path, args.override)
     bot.generateAnswers()
     bot.saveAnswers()
     bot.scheduler.shutdown() 
