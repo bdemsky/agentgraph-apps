@@ -1,0 +1,19 @@
+  Subject: Re: Questions about Concurrency in the Syllabus
+
+Dear John,
+
+Thank you for your email and for your interest in the course. I'm glad to hear that you're excited to learn more about concurrency!
+
+To answer your questions:
+
+1. The tools we will be using for model checking in the course are the ones provided by the University of California, Irvine's Center for Computer Science and Technology (CST). These tools are designed to help developers write correct concurrent data structures, and we will be using them throughout the course. I recommend familiarizing yourself with these tools as they will be an essential part of your learning experience.
+2. Common hardware and language memory models refer to the way in which a computer's hardware and software manage memory. In the context of concurrency, these models determine the legal program visible behaviors, which is crucial for developing lock-free and wait-free data structures. We will be exploring these concepts in detail throughout the course.
+3. The course slides will be available for download before each lecture on the course website. I recommend reviewing them before class to make the most of our time together.
+
+Regarding your third question, I can not answer your question at this time as it is not covered in the syllabus. However, I encourage you to reach out to me if you have any further questions or concerns.
+
+I look forward to your participation in the course, John!
+
+Best regards,
+
+Brian Demsky

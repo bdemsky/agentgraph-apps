@@ -1,0 +1,19 @@
+  Subject: Re: Question about Concurrent Course Material
+
+Dear John,
+
+Thank you for reaching out to me with your questions about the COMPSCI 295 course. I'm happy to help you understand the concepts of lock-free and wait-free data structures.
+
+To answer your first question, I would like to direct you to the section on concurrent data structures in the course syllabus. Specifically, the syllabus highlights the importance of understanding the formalisms for reasoning about concurrent data structures, as well as the design of scalable data structures. The syllabus also provides a list of required readings, including "The Art of Multiprocessor Programming" by Maurice Herlihy and Nir Shavit, which covers the concepts of lock-free and wait-free data structures in detail.
+
+In terms of additional resources, I recommend reviewing the course slides and the book chapters on concurrent data structures to deepen your understanding of these concepts.
+
+Regarding your second question, I can certainly provide guidance on how to approach the coding projects for the course. As the syllabus states, the course will explore tools such as model checkers that can help developers write correct concurrent data structures. When working on the coding projects, I encourage you to focus on developing lock-free and wait-free data structures that are scalable and correct according to the legal program visible behaviors.
+
+To ensure that you are on the right track, I suggest you review the course slides and the required readings, and work through the coding projects gradually. If you have any questions or need clarification on any of the concepts, please don't hesitate to reach out to me.
+
+I hope this information helps, and I look forward to your progress in the course.
+
+Best regards,
+
+Brian Demsky

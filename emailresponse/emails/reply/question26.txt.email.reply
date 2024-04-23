@@ -1,0 +1,25 @@
+  Subject: Re: Question about Assignments in EECS 40 Syllabus
+
+Dear John,
+
+Thank you for reaching out to me with your questions regarding the assignments in EECS 40.
+
+Regarding your first question, the syllabus does provide guidance on what constitutes useful comments in the assignments. According to section 4.1, "programs must be well documented with useful comments." Useful comments are those that provide context and explanation for the code, making it easier for the instructors and peers to understand the logic and intent behind the program. Some examples of useful comments include:
+
+* A brief description of what the program is intended to do
+* Explanation of any relevant data structures or algorithms used in the program
+* Notes on any assumptions made or constraints applied during the development of the program
+
+To ensure that your code is well documented, you can follow these tips:
+
+* Write clear and concise comments that are placed in appropriate locations throughout the code.
+* Use a consistent commenting style and format to make the code easy to read and understand.
+* Avoid using comments solely for explanations of code that are already well-documented in the syllabus or other resources.
+
+Regarding your second question, the syllabus does not provide specific instructions on how to submit assignments. However, it does mention that assignments should be turned in on time, and that late assignments will receive reduced credit. You can submit your code to a specific repository, such as the course's CVS repository, or you can provide a link to the code in an email to the instructors.
+
+I hope this information helps answer your questions, John. If you have any other questions or concerns, please don't hesitate to reach out to me.
+
+Best regards,
+
+[Your Name]

@@ -1,0 +1,17 @@
+  Subject: Re: Concurrency in Advanced Concurrency (COMPSCI 295)
+
+Dear John,
+
+Thank you for your email and for your interest in the course Advanced Concurrency (COMPSCI 295). I'm happy to help answer your questions.
+
+1. The different formalisms for reasoning about concurrent data structures that we will be exploring in the course include linearizability, SC (Strong Consistency), and others. These formalisms will be discussed in detail in the course slides and readings.
+2. In the course, we will be exploring the design of scalable data structures, including lock-free and wait-free data structures. These data structures are implemented using programming languages, and their design and implementation will be discussed in the course slides and readings.
+3. We will be using model checkers as tools to help develop correct concurrent data structures. Model checkers are automated tools that can verify the correctness of a program by checking its behavior against a formal specification. We will be using a specific model checker in the course, but I cannot disclose the name at this time as the tool is proprietary. However, we will provide you with the necessary information and resources to use the tool effectively.
+
+Regarding your request for additional resources or materials for further reading, I recommend checking out the course slides and readings provided in the syllabus. These materials should provide a good introduction to the topics we will be covering in the course.
+
+I hope this information helps answer your questions. If you have any further questions or concerns, please don't hesitate to reach out.
+
+Best regards,
+
+Brian Demsky

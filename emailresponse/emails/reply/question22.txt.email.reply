@@ -1,0 +1,17 @@
+  Subject: Re: Questions about Homework in COMPSCI 295 - Advanced Concurrency
+
+Dear John,
+
+Thank you for your email and for your interest in the course. I'm happy to help you with your questions.
+
+Regarding the format of the homework assignments, the syllabus does provide some information on the types of problems you will be solving, the expected time commitment, and the tools or resources that you will need to use. Specifically, the syllabus states that the homework assignments will include lock-free and wait-free data structures, and that you will be using programming languages and execute on modern processors. It also mentions that the class will explore tools such as model checkers that can help developers write correct concurrent data structures.
+
+As for the specific topics or concepts that you should focus on in your homework assignments, the syllabus does indicate that the course will explore correctness models for concurrent data structures (linearizable, SC, etc.), as well as the design of scalable data structures. Therefore, it would be beneficial to focus on these topics when completing your homework assignments.
+
+Regarding the automated tool that will be used to detect copied code in your assignments, the syllabus does mention that an automated tool will be used to detect copied code. However, I cannot provide more information on the specific tool at this time as it is not mentioned in the syllabus. My apologies.
+
+In summary, the information you are seeking can be found in the syllabus, so I will notify you that you can find the answers to your questions there. If you have any other questions, please feel free to ask.
+
+Best regards,
+
+Brian Demsky

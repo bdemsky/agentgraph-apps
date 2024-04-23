@@ -1,0 +1,7 @@
+The databases are: {{dbs}}
+
+and the user request is: {{question}}
+
+Respond with the name of the appropriate databse to query, in the format 
+
+database: NAME

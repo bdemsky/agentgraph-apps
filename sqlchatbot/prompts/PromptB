@@ -1,0 +1,11 @@
+Given the database tables:
+{{tables}}
+
+and the user question
+{{question}}
+
+Please respond with the SQL query in the format
+
+```sql
+QUERY
+```

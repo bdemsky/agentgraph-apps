@@ -1,0 +1,67 @@
+EECS 40: Syllabus
+April 2012
+1  Course Personnel:
+Instructor:
+Brian Demsky
+E-mail: bdemsky@uci.edu
+Office Hours: 9:30 -10:30 Tuesdays in EH 4414
+Teaching Assistant:
+James Jenista
+E-mail: jjenista@uci.edu
+Office Hours: 12-1 Fridays in EH 4401
+2  Course meeting times:
+Lecture:
+T-Th 2-3:20 ELH 110
+Discussion:
+11-11:50 in ET 204
+Lab:
+M 9-10:50 in EH1141
+or
+M 11-12:50 in EH1141
+3  Text:
+The course will use the folowing texts:  “Introduction to Java Programming Comprehensive Version, 9th ed” by Y.
+Daniel Liang (8th ed. is fine also)
+and
+“Programming Android” by Zigurd Mednieks, Laird Dornin, G. Blake Meike, & Masumi Nahamura.
+4  Course Website:
+The course website is available at the following URL:
+http://eee.uci.edu/12s/18010/
+1
+4.1  Commenting Code:
+Programs must be well documented with useful comments.  Excessive, insufficient, or useless comments in the pro-
+gram will result in deducted points.
+4.2  Platform:
+Android is the platform used for this course. The computer lab will have Android installed. Android can be installed on
+MAC, Windows, and Linux. Installation instructions are provided at http://developer.android.com/sdk/installing.html.
+Note that it should be possible to install Android on a USB stick if you do not own a computer and need more time
+than is available in the lab sessions.
+You will also need a EECS server account.
+5  Assignments:
+Assignments  should  be  turned  in  on  time.   Late  assignments  will  received  reduced  credit.   If  you  cannot  make  a
+deadline, please email us in advance to make alternative arrangements.
+All assignments are to be submitted to your group’s CVS repository.
+6  Exams:
+The course will include one midterm and one final examination. We will require an official photo ID.
+7  Grading Policy:
+The components for the course will be weighted as follows:
+50% Assignments
+20% Midterm
+30% Final examination
+8  Academic Honesty:
+Do not cheat under any circumstances! If you cannot make a deadline, please arrange an alternative deadline with the
+instructors (for reduced credit).
+If  you  cheat,  it  is  almost  certain  you  will  be  caught.   We  run  an  automated  tool  on  all  assignments  and  then
+manually inspect the flagged assignments.  The tool uses sophisticated algorithms that can detect copied code even
+when all methods, fields, classes, and variables have been renamed; and all comments have changed.
+Students are expected to write their own code. Students may discuss conceptual issues about the assignments with
+other students, but may not share code.
+Each assignment must contain the following statement:  I, your name,  hereby certify that the files I submitted
+represent my own work, that I did not copy any code from any other person or source, and that I did not share my code
+with any other students.
+Cheating is a dishonest representation of the course work, including but not limited to cheating on exams, fraudu-
+lently presenting lab exercises or assignments by someone else as one’s own, copying code from anyone or anyplace,
+or getting someone else to take the course.  It is a serious academic offense that will not be tolerated.  Cheaters can
+expect to receive a failing grade and may receive additional punishments according to University regulations.
+A different but related issue arises due to US copyright law.  Copying code can have both civil and criminal legal
+consequences due to US copyright law. Awards in civil cases can be extremely large even when no actual damages are
+demonstrated

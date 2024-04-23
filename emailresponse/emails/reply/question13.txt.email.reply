@@ -1,0 +1,17 @@
+  Subject: Re: Questions about Assignments in the Syllabus for Computer Science 142A
+
+Dear John,
+
+Thank you for reaching out to me with your questions about the assignments in Computer Science 142A. I'm happy to help you.
+
+Regarding your question about formatting and submission requirements, the syllabus does provide some guidance on this. According to the syllabus, assignments should be submitted as a git repository, and each assignment should be committed as you develop it. The syllabus also recommends committing small changes frequently throughout the development process rather than waiting until the end to commit everything.
+
+As for the specific formatting and organization requirements for the commits, the syllabus does not provide any specific guidelines. However, it is important to ensure that your commits are well-organized and easy to understand, so I would recommend using a consistent naming convention for your commits and including a brief description of the changes made in each commit.
+
+Regarding the tools or platforms for submitting the assignments, the syllabus does not mention any specific tools or platforms. However, since we are using git for submitting the assignments, I would recommend using a tool like GitHub or GitLab to host your repository.
+
+I hope this information helps answer your questions. If you have any other questions or concerns, please feel free to reach out to me.
+
+Best regards,
+
+Brian Demsky

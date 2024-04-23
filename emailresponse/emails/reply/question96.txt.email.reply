@@ -1,0 +1,19 @@
+  Subject: Re: Question about Homework in COMPSCI 295 - Advanced Concurrency
+
+Dear John,
+
+Thank you for reaching out to me with your question. I'm happy to help you with your concerns.
+
+To answer your first question, the syllabus does provide some guidance on what constitutes "copied code." According to the syllabus, copied code refers to any code that has been directly copied from another person or source, without proper attribution or permission. This means that you are not allowed to copy and paste entire code snippets from other sources, including existing implementations of concurrent data structures, without proper documentation and credit.
+
+However, the syllabus does not explicitly prohibit the use of existing implementations as a starting point for your own implementations. In fact, the syllabus encourages you to use existing resources and research to inform your own work. So, as long as you are not copying code directly and are giving proper attribution and credit to the original sources, you should be fine.
+
+Regarding the tools and resources you are expected to use for your homework assignments, the syllabus does not provide a comprehensive list of specific tools or resources. However, it does mention the use of model checkers as a way to help develop correct concurrent data structures. You may find it helpful to consult research papers or other resources on concurrent data structures to gain a better understanding of the tools and techniques used in the field.
+
+In summary, you are allowed to use existing implementations of concurrent data structures as a starting point for your own implementations, but you must give proper attribution and credit to the original sources. You are also expected to use model checkers and other debugging tools to help develop correct concurrent data structures.
+
+I hope this helps clarify things for you. If you have any further questions, please don't hesitate to ask.
+
+Best regards,
+
+[Your Name]

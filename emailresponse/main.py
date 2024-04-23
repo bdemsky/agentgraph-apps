@@ -80,7 +80,7 @@ class Responder:
                 course = "unknown"
                 syllabus = "unknown"
             else: 
-                course = split_at_course[1].strip().strip("\"")
+                course = split_at_course[1].strip().strip("\"").lower()
                 if not course in self.syllabi:
                     print("unable to find syllabus for", course, "from LLM response")
                     syllabus = "unknown"
@@ -89,7 +89,7 @@ class Responder:
             return [syllabus, course]
 
         syllabus, course = self.scheduler.run_python_agent(handleResponse, pos=[var], numOuts=2)
-        var2 = self.scheduler.run_llm_agent(msg = self.sysprompt2 ** self.prompts.loadPrompt("UserPrompt2", {'contents' : content, 'course':course, 'syllabus': syllabus}))
+        var2 = self.scheduler.run_llm_agent(msg = self.sysprompt2 ** self.prompts.load_prompt("UserPrompt2", {'contents' : content, 'course':course, 'syllabus': syllabus}))
         self.scheduler.run_python_agent(writeData, pos=[name, var2])
 
 

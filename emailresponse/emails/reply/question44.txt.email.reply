@@ -1,0 +1,20 @@
+  Subject: Re: Question about Assignments in EECS 114 Syllabus
+
+Dear John,
+
+Thank you for reaching out to me with your questions regarding the assignments in EECS 114. I'm happy to help you.
+
+To submit your assignments electronically while logged into the server, you can follow these steps:
+
+1. Make sure you have a valid account on the server. If you don't have one, please contact the course TA or me for assistance.
+2. Save your assignment file with a proper naming convention and format (e.g., lastname_firstname_assignmentname.txt).
+3. Log in to the server using SSH and navigate to the directory where you want to submit your assignment.
+4. Use the command "sudo append_file /course/path/to/assignment.txt" to submit your assignment.
+
+For the format and structure of the assignments, you can refer to the course syllabus, section 4.1 Commenting Code. It is essential to include useful and well-documented comments in your code to receive full credit.
+
+If you have any further questions or concerns, please feel free to ask.
+
+Best regards,
+
+Brian Demsky

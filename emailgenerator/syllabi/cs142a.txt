@@ -1,0 +1,126 @@
+Computer Science 142A: Compilers and Interpreters
+
+Spring 2023, 8-9:20am Tues, Thurs
+Instructor Information
+
+Brian Demsky
+Email: bdemsky@uci.edu
+Office hour: Tuesdays at 2pm at https://uci.zoom.us/j/95784134714
+
+Links to an external site.
+
+Email me if you need an in person meeting.  
+
+ 
+
+Contacting me: Please contact your TAs first with any issues. If they cannot help, then contact me. It is best to reach me by email.
+Teaching Assistants
+Name 	Email 	 Office Hours
+Simon Guo 	yutong4@uci.edu 	
+
+Tuesday 3:30-4:30pm
+
+ICS 458A
+Fabian Parzefall 	fparzefa@uci.edu 	
+
+Wednesday 13:30-14:30
+
+ICS 430A
+Book
+
+The course will use the following book:
+
+    Engineering a Compiler, Second Edition by Keith Cooper and Linda Torczon
+
+Online Resources
+
+We have a course edstem page:  https://edstem.org/us/courses/38633/discussion/
+
+Links to an external site.  We will answer questions on this forum.
+
+ 
+
+We have a discord server for students to chat regarding the class:    https://discord.gg/PdGzmNBVAh
+
+Links to an external site.. We may occasionally look at it, but we will not answer questions on this.
+
+ 
+Lectures, Discussions, and Labs
+
+Lectures are held on Tuesday and Thursday from 8:00-9:20am in RH104.    You can also attend via Zoom at: https://uci.zoom.us/j/92109872516
+
+Links to an external site.
+
+Lectures will be recorded and posted.
+
+Discussions are held on Friday from 1-1:50pm in ICS 174. You can also attend via Zoom at:https://uci.zoom.us/j/97288838694
+
+Links to an external site.
+
+Discussions will be recorded and posted.
+
+Lab 1 is held on Friday from 9-9:50am, Lab 2 on Friday from 10-10:50am.
+
+Both sessions are in ICS 364. 
+Other Materials
+
+We have lectures that work through developing a simplified compiler.  The lectures are available on the course's Yuja page.  You can get a copy of the compiler developed in these lectures by cloning the git repository at:
+
+https://gitlab-cs142a-s23.ics.uci.edu/bdemsky/calc.git
+Assignments
+
+Assignments should be turned in on time.  If you cannot make a deadline, please email the TAs to make alternative arrangements.  If you are sick, please let us know for an exception to the standard late policy.  
+
+Both partners should contribute equally each assignment. It is not acceptable for one partner to do all the work on any assignment.
+
+Assignments will be submitted as a git repository. The assignment should be committed as you develop and not in large commits in the end. You may receive less credit for assignments that are committed as a single commit.
+
+In general, we expect that both partners will receive similar grades for an assignment. If there is a complaint and the git history shows a significant disparity in work between the partners, we may assign different grades to the partners.
+Midterm & Finals
+
+We will have a midterm and final over the compiler lecture material & slides.  They will be worth 10% each.  
+Grading
+
+Late penalty for projects: 5% for the first three days, 8% from three to seven days, and 10 % until the end of the quarter.
+
+Academic Honesty
+
+Do not cheat under any circumstances! If you cannot make a deadline, please arrange an alternative deadline with the instructors (for reduced credit).
+
+If you cheat, it is almost certain you will be caught. We run an automated tool on all assignments and then manually inspect the flagged assignments. The tool uses sophisticated algorithms that can detect copied code even when all methods, fields, classes, and variables have been renamed; and all comments have changed.
+
+Students are expected to write their own code. You may discuss conceptual issues about the assignments with other students, but you may not share code.
+
+Each assignment must contain the following statement: We, your name and your partner, hereby certify that the files we submitted represent our own work, that we did not copy any code from any other person or source, and that we did not share our code with any other students.
+
+You are responsible for both your work and your partner’s work. If your partner copies code, you are responsible even if you had no part.
+
+Cheating is a dishonest representation of the course work, including but not limited to cheating on exams, fraudulently presenting lab exercises or assignments by someone else as one’s own, copying code from anyone or anyplace, using AI generated code (tools like CoPilot), or getting someone else to take the course. It is a serious academic offense that will not be tolerated. Cheaters can expect to receive a failing grade and we will pursue the maximum penalties allowed under University regulations.
+Changes
+
+The syllabus is a best effort and subject to changes as necessary.
+Spring 2023 Schedule
+
+This is our expected schedule.  It is subject to change.
+Date 	Lecture Topic 	Reading
+ 4/4 	Overview of Compilers 	Ch 1
+ 4/6 & 4/11  	Scanning 	Ch 2
+ 4/13 & 4/18 	Parsing part 1 	Ch 3
+ 4/20 & 4/25  	AST/Symbol Table/Type Checking 	Ch 4 & 5
+4/27  	Intermediate Representation 	Ch 5
+5/2 & 5/4  	Code Generation 	Ch 6/7
+ 5/9  & 5/11 	Bottom Up Parsing 	Ch 3
+ 5/16 & 5/18  	Intro to Optimizations 	Ch 8
+ 5/23 & 5/25  	Dataflow Optimizations 	Ch 9/10
+   	Register Allocation 	
+
+Ch 13
+	Loop Optimization 	
+
+ 
+  	Garbage Collection 	
+
+ 
+	Pointer Analysis 	
+
+ 

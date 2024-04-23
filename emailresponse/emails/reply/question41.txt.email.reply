@@ -1,0 +1,15 @@
+  Subject: Re: Question about Assignments in EECS 114 Syllabus
+
+Dear John Smith,
+
+Thank you for reaching out to me with your questions regarding the assignments in EECS 114. I appreciate your diligence in reviewing the syllabus and seeking clarification.
+
+To answer your first question, the syllabus does provide some exceptions to the late assignment policy. According to section 4.1, if you encounter technical difficulties or illness that prevent you from submitting your assignments on time, you may submit them up to one week after the original due date. However, please note that late assignments may still be subject to a deduction in points.
+
+Regarding your second question, the syllabus does not provide detailed instructions on how to submit assignments electronically while logged into the server. However, you can find the necessary instructions on the course website under the "Assignments" section. You will need to use the SSH protocol to login to the server and submit your assignments.
+
+I hope this information helps clarify things for you. If you have any further questions or concerns, please don't hesitate to reach out.
+
+Best regards,
+
+Brian Demsky

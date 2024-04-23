@@ -1,0 +1,19 @@
+  Subject: Re: Question about Assignment in COMPSCI 295 - Advanced Concurrency
+
+Dear John,
+
+Thank you for reaching out to me with your question. I appreciate your curiosity and interest in understanding the tools we use to detect copied code in our assignments.
+
+As mentioned in the syllabus, we do use automated tools to detect copied code, and these tools are sophisticated enough to detect even when all methods, fields, classes, and variables have been renamed. I cannot go into detailed technical information on the algorithms used by these tools, as they are proprietary and not publicly available. However, I can assure you that they are advanced and can detect copied code with a high degree of accuracy.
+
+Regarding resources and guidelines for completing assignments, I recommend that you consult the course slides and the required textbook, "The Art of Multiprocessor Programming" by Maurice Herlihy and Nir Shavit. These resources provide a comprehensive overview of the concepts and techniques covered in the course, including concurrency, lock-free and wait-free data structures, and model checking.
+
+Additionally, you can find helpful resources and tutorials on the topic of concurrent programming on the course website, which is linked in the syllabus.
+
+As for your question about the types of algorithms used by the automated tools, I am afraid I cannot provide more information at this time. However, I hope this information helps you understand the general approach we take to detecting copied code in our assignments.
+
+Please let me know if you have any other questions or concerns.
+
+Best regards,
+
+Brian Demsky

@@ -1,0 +1,24 @@
+  Subject: Re: Question about Assignments in EECS 40 Syllabus
+
+Dear John,
+
+Thank you for your email and for your interest in the EECS 40 course. I'm happy to help you with your questions.
+
+To answer your first question, the syllabus does provide guidance on what constitutes "useful comments" in the assignments. According to section 4.1, programs must be well documented with useful comments that provide insight into the program's functionality and organization. While there is no specific requirement for the number of comments per program, it is expected that each program will have a clear and logical structure that is easily understandable by the instructor and teaching assistant.
+
+Regarding your second question, installing Android on a USB stick is indeed possible, and instructions can be found on the Android developer website. Specifically, you can follow these steps:
+
+1. Download the Android SDK tools package from the Android developer website.
+2. Connect your computer to the internet and open a command prompt or terminal window.
+3. Navigate to the directory where you downloaded the SDK tools package and run the command "android create-ndk-image --target=android-19" to create a NDK image.
+4. Once the NDK image has been created, you can use it to install Android on a USB stick by running the command "android install -t -p <path-to-ndk-image> -a"
+
+I hope this information helps, and please let me know if you have any further questions.
+
+Regarding your second question, I can not answer your question at this time as it is not addressed in the syllabus.
+
+Please let me know if you have any other questions, and I will do my best to assist you.
+
+Best regards,
+
+Brian Demsky

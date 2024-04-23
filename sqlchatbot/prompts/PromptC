@@ -1,0 +1,5 @@
+Given the question : {{question}}, the query 
+{{query}} 
+on database {{db}} returns the result
+{{res}}
+What should be the answer to the question?

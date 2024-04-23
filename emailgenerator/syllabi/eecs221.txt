@@ -1,0 +1,69 @@
+EECS 221: Program Analysis: Syllabus
+Spring 2019
+1  Course Title:
+Program Analysis
+2  Course Personnel:
+Instructor:
+Brian Demsky
+E-mail: bdemsky@uci.edu
+Office Hours: TBA
+3  Course meeting times:
+Lecture:
+M-W 3:30pm - 4:50 pm in DBH 1429
+4  Course Description:
+Software failures are a significant problem. They have caused air traffic controllers to lose voice contact with airplanes,
+contributed to a blackout in the Northeast, caused the Ariane 5 rocket to fly out of control, and caused cars to shutdown
+while moving at highway speeds. Software failures are very expensive. A 2002 study commissioned by the National
+Institute of Standards and Technology (NIST) estimated that software errors cost the US economy 59.5 billion dollars
+per year. As software systems continue to evolve, this problem is likely to become worse. Developers are constructing
+systems that are dynamically combined with other software systems, and that operate in changing, failure-prone dis-
+tributed environments. Such software systems have many complicated failure modes, many of which may depend on
+the exact system configuration. Anticipating all possible configurations of these systems will be challenging, and as a
+result, these systems will likely be used in configurations for which they were never tested. Moreover, future software
+systems will inevitably be even larger and more complicated than today’s software systems.  In general, these larger
+software systems will be harder to develop and will contain more components that are sure to fail if constructed using
+current techniques.
+This course will cover research on compilers,  automated program analysis,  programming languages,  and tools
+designed to help developers write more reliable, robust software systems.  We will cover topics including static and
+dynamic analysis of code, debugging tools, code visualization tools, and techniques to recover from software failures.
+Students will read research papers in this field, participate in classroom discussions, complete assignments, and/or
+work on a course project.
+5  Books:
+Required:  Principles of Program Analysis by Flemming Nielson, Hanne R. Nielson, and Chris Hankin.  December
+1,2010
+1
+http://www.amazon.com/Principles-Program-Analysis-Flemming-Nielson/dp/3642084745/
+Optional: Compilers: Principles, Techniques, and Tools by Alfred V. Aho, Monica S. Lam, Ravi Sethi, and Jeffry
+D. Ullman.
+http://www.amazon.com/Compilers-Principles-Techniques-Tools-Edition/dp/0321486811/
+6  Mailing List:
+The course mailing list is eecs228-S19@classes.uci.edu.  Anyone enrolled in the class can send an email to it.  Feel
+free to send questions to your classmates.
+7  Class Format:
+The class will be primarily organized as a hybrid of the traditional lecture format and a seminar class.  We will read
+and discuss research papers in class. For these lectures, you are expected to read the paper in advance. Groups will be
+assigned to lead the discussion on specific papers.
+8  Grading Policy:
+This course will have a final examination. The examination will count for 30 percent of your grade in this class. You
+are expected to attend all lectures. If you have an important reason to miss class, please arrange with another student
+to get notes on what you missed.
+The class will have programming assignments and/or written assignments.
+The components for the course will be weighted as follows:
+30% Final
+60% Homeworks/Projects
+10% Participation
+9  Academic Honesty:
+Do not cheat under any circumstances! If you cannot make a deadline, please arrange an alternative deadline with the
+instructors (for reduced credit).
+If  you  cheat,  it  is  almost  certain  you  will  be  caught.   We  run  an  automated  tool  on  all  assignments  and  then
+manually inspect the flagged assignments.  The tool uses sophisticated algorithms that can detect copied code even
+when all methods, fields, classes, and variables have been renamed; and all comments have changed.
+Students are encouraged to discuss the class material we will cover with anyone.  However, you are expected to
+complete your own homework assignments.
+Each assignment must contain the following statement:  I, your name,  hereby certify that the files I submitted
+represent my own work, that I did not copy any code from any other person or source, and that I did not share my code
+with any other students.
+Cheating is a dishonest representation of the course work, including but not limited to cheating on exams, fraud-
+ulently presenting lab exercises or assignments by someone else as one’s own, or getting someone else to take the
+course.  It is a serious academic offense that will not be tolerated.  Cheaters can expect to receive a failing grade and
+will be punished according to University regulations

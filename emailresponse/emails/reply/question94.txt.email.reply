@@ -1,0 +1,17 @@
+  Subject: Re: Questions about Concurrent Data Structures in COMPSCI 295
+
+Dear John,
+
+Thank you for reaching out to me with your questions about the COMPSCI 295 course syllabus. I'm happy to help you understand the course material better.
+
+To answer your first question, the syllabus does provide some information on the different formalisms for reasoning about concurrent data structures. Specifically, the syllabus mentions the use of linearizability, SC, and other correctness models for concurrent data structures. These formalisms will be covered in depth throughout the course.
+
+Regarding the tools we will be using to explore common hardware and language memory models, the syllabus does mention the use of model checkers. Specifically, we will be using the Spin and Spin AL model checker tools to explore these memory models.
+
+As for your third question, I can not answer your question at this time as the syllabus does not provide specific guidance on how to design and implement lock-free and wait-free concurrent data structures. However, I can suggest some general strategies for approaching these coding projects. For example, you can start by studying the basics of concurrent programming and familiarizing yourself with the concepts of lock-free and wait-free algorithms. Then, you can begin to research and explore different design patterns and techniques for implementing these types of data structures.
+
+I hope this information is helpful. If you have any other questions, please don't hesitate to reach out.
+
+Best regards,
+
+Brian Demsky

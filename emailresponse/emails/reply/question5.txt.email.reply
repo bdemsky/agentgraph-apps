@@ -1,0 +1,17 @@
+  Subject: Re: Question about Assignments in EECS 40 Syllabus
+
+Dear John,
+
+Thank you for reaching out to me regarding your question about the assignments in EECS 40. I appreciate your interest in clarifying the requirements for the assignments.
+
+To answer your question, the syllabus does provide some guidance on the type of comments that are expected for the assignments. According to section 4.1, "Programs must be well documented with useful comments. Excessive, insufficient, or useless comments in the program will result in deducted points."
+
+The syllabus does not provide specific formatting guidelines for the comments, such as XML or YAML. However, it does emphasize the importance of providing useful comments that help to explain the code and make it easier for others to understand.
+
+In general, it is a good idea to include comments that describe the purpose of each function or method, any assumptions or constraints that are relevant to the code, and any other information that might be useful for someone who is trying to understand or maintain the code.
+
+If you have any further questions or concerns, please don't hesitate to ask. I'm here to help.
+
+Best regards,
+
+Brian Demsky

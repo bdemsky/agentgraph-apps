@@ -1,0 +1,16 @@
+  Subject: Re: Question about Assignments in the Spring 2023 Compilers and Interpreters Syllabus
+
+Dear John,
+
+Thank you for reaching out to me with your questions regarding the assignments in our Computer Science 142A course. I'm happy to help you.
+
+To answer your first question, it is acceptable to submit assignments as a single commit in the git repository. However, keep in mind that late penalties will apply if you miss the submission deadline, so please make sure to plan accordingly. According to the syllabus, late penalties are as follows: 5% for the first three days, 8% from three to seven days, and 10% until the end of the quarter.
+
+Regarding your second question, each partner will receive a separate grade for each assignment. The syllabus states that "both partners will receive similar grades for an assignment." However, if there is a complaint and the git history shows a significant disparity in work between the partners, we may assign different grades to the partners.
+
+Finally, regarding your third question, you will be required to use any git repository format.
+
+I hope this helps clarify things for you. If you have any other questions, please don't hesitate to reach out.
+
+Best regards,
+Brian Demsky

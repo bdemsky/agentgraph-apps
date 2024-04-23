@@ -1,0 +1,15 @@
+  Subject: Re: Question about Homework in COMPSCI 295 - Advanced Concurrency
+
+Dear John,
+
+Thank you for your email and for your enthusiasm for the course. I'm glad to hear that you're excited to learn about concurrent data structures and their development.
+
+To answer your question, I can inform you that the syllabus does provide some guidance on how to approach the homework assignments. In particular, it is mentioned that the homework assignments should focus on the design and implementation of lock-free and wait-free data structures. So, I would encourage you to prioritize these topics when completing your homework assignments.
+
+However, I must inform you that the syllabus does not provide specific topics or areas of focus for the homework assignments. The course is designed to explore formalisms for reasoning about concurrent data structures and the development of concurrent data structures, and the homework assignments are meant to reinforce these concepts. Therefore, I cannot provide you with a specific list of topics to focus on.
+
+I hope this helps clarify things. If you have any further questions or concerns, please don't hesitate to reach out.
+
+Best regards,
+
+Brian Demsky

@@ -1,0 +1,55 @@
+COMPSCI 295: Advanced Concurrency (34865)
+
+Spring 2020
+
+Instructor Information
+
+Brian Demsky
+
+Email: bdemsky@uci.edu
+Office Hours: By appointment
+Lectures
+
+The format of everything is subject to change as we discover what works and what does not work remotely.  Here is my initial plan.
+
+Lectures are at 11am-12:20pm Tues, Thurs via Zoom video conferencing.  The meeting ID is 325-953-054. They will also be posted online.
+
+Office hours are via Zoom video conferencing by appointment.
+
+Course Description
+
+Multicore processors have become ubiqitious. They are found in every class of computing device ranging from power- ful servers to cell phones. Fully leveraging the computational resources of these processors requires writing concurrent code.
+
+This class will explore formalisms for reasoning about concurrent data structures and the development of con- current data structures including lock-free and wait-free data structures. We will explore the design of scalable data structures.
+
+Concurrent data structures are implemented using programming languages and execute on modern processors. Optimizations in both compilers and processors complicate parallel programming. Language and hardware memory models specify the legal program visible behaviors. We’ll explore common hardware and language memory models in this class.
+
+The class will also explore tools such as model checkers that can help developers write correct concurrent data structures.
+
+The class will assume that everyone is already familiar with both computer architecture, operating systems, al- gorithms, and already experts in the use of threads and locks. This course is going to explore correctness models for concurrent data structures (linearizable, SC, etc). Well look at and design lock-free, wait-free concurrent data structures. They will be some coding projects of developing concurrent data structure implementations.
+
+Course Slides
+
+I will post the course slides in the following google drive folder.  You need to be logged into your UCI account to access them:
+
+Course SlidesLinks to an external site.
+
+Book
+
+Required: The Art of Multiprocessor Programming by Maurice Herlihy and Nir Shavit. June 5, 2012 version.
+
+http://www.amazon.com/The-Multiprocessor-Programming-Revised-Reprint/dp/0123973376
+
+Academic Honesty
+
+Do not cheat under any circumstances! Our policy in this class is to aggressively pursue cheaters, and to ensure that they receive the maximum penalty allowable under the University of California academic system. If you cannot make a deadline, please do yourself a favor and arrange an alternative deadline with the instructors (for reduced credit).
+
+If you cheat, it is almost certain you will be caught. We run an automated tool on all assignments and then manually inspect the flagged assignments. The tool uses sophisticated algorithms that can detect copied code even when all methods, fields, classes, and variables have been renamed; and all comments have changed.
+
+Students are encouraged to discuss the class material we will cover with anyone. However, you are expected to complete your own homework assignments.
+
+Each assignment must contain the following statement: I, your name, hereby certify that the files I submitted represent my own work, that I did not copy any code from any other person or source, and that I did not share my code with any other students.
+
+On any group assignments, you are responsible for both your work and your partner’s work. If your partner copies code, you are responsible even if you had no part.
+
+Cheating is a dishonest representation of the course work, including but not limited to cheating on exams, fraud- ulently presenting lab exercises or assignments by someone else as one’s own, or getting someone else to take the course. It is a serious academic offense that will not be tolerated. Cheaters can expect to receive a failing grade and will be punished according to University regulations.

@@ -1,0 +1,17 @@
+  Subject: Re: Questions about Software Failures in the Syllabus
+
+Dear John,
+
+Thank you for your interest in the course and the topic of software failures. The examples provided in the syllabus are indeed significant and highlight the potential consequences of software failures in today's society.
+
+Software failures can have a significant impact on various aspects of society, including safety, security, and economic stability. As you mentioned, software failures can cause air traffic control systems to malfunction, contribute to power grid failures, and even cause accidents. The National Institute of Standards and Technology (NIST) has estimated that software errors cost the US economy 59.5 billion dollars per year, as you mentioned in the syllabus.
+
+In terms of program analysis and software analysis playing a role in preventing or mitigating software failures, these techniques can help developers identify and fix errors early in the development process, before the software is released. Static and dynamic analysis, debugging tools, code visualization tools, and techniques for recovering from software failures are all important areas of research and practice in this field.
+
+As for recommended readings, there are several books and resources that delve deeper into the topic of software failures and their causes. For example, "Principles of Program Analysis" by Flemming Nielson, Hanne R. Nielson, and Chris Hankin is a required textbook for the course and provides a comprehensive overview of the field. Additionally, "Compilers: Principles, Techniques, and Tools" by Alfred V. Aho, Monica S. Lam, Ravi Sethi, and Jeffry D. Ullman is an optional textbook that covers related topics.
+
+If you have any further questions or need more information, please feel free to ask. However, I can not answer your question at this time as the syllabus does not provide an answer to your specific question.
+
+Best regards,
+
+Brian Demsky

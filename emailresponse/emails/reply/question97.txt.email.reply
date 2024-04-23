@@ -1,0 +1,15 @@
+  Subject: Re: Question about Concurrency in the Syllabus
+
+Dear John,
+
+Thank you for reaching out to me with your questions about the COMPSCI 295 course. I'm happy to help you understand more about the course material and assignments.
+
+The syllabus provides a detailed overview of the course topics, including formalisms for reasoning about concurrent data structures and the development of lock-free and wait-free data structures. The course will cover various topics such as scalable data structures, memory models, and tools for correctness models.
+
+Regarding resources outside of the course material, I would recommend checking out the course slides and the required book, "The Art of Multiprocessor Programming" by Maurice Herlihy and Nir Shavit. These resources will provide a comprehensive overview of the concepts of concurrency and how they are applied in practice.
+
+However, I cannot answer your question at this time as it is not covered in the syllabus. If you have any other questions or concerns, please feel free to ask.
+
+Best regards,
+
+Brian Demsky

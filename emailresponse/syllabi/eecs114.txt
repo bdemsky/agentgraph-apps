@@ -1,0 +1,61 @@
+EECS 114: Syllabus
+
+September 2010
+
+1 Course Personnel:
+Instructor:
+Brian Demsky
+E-mail: bdemsky@uci.edu
+Office Hours: Tu:1:20 to 2:20 pm in EH 3213
+Teaching Assistant:
+Vahid Salmani
+E-mail: vsalmani@uci.edu
+Office Hours: TBA
+
+2 Course meeting times:
+Lecture:
+T-Th 11-12:20 PCB 1200
+Lab:
+M 9-10:50 in EH1151
+or
+W 0-10:50 in EH1151
+
+3 Text:
+The course will use the text “Introduction to Algorithms” by Thomas H. Cormen, Charles E. Leiserson, Ronald L.
+Rivest, and Clifford Stein.
+4 Course Website:
+The course website is available at the following URL: http://eee.uci.edu/10f/18090/
+
+4.1 Commenting Code:
+
+Programs must be well documented with useful comments. Excessive, insufficient, or useless comments in the pro-
+gram will result in deducted points.
+
+1
+
+4.2 Platform:
+Sun Solaris is the standard platform used for this course. All processes run on the unix servers, vivian.eecs.uci.edu,
+newport.eecs.uci.edu, or malibu.eecs.uci.edu. Students may use other platforms to develop and test their programs.
+However, all course work will be checked and graded on the server. SSH is required to login to the server.
+5 Assignments:
+Assignments must be turned in on time. Late assignments may not be graded and may receive no credit.
+All assignments are to be submitted electronically while being logged into the account on the server. Detailed
+instructions on home work submission will be listed with each assignment.
+6 Exams:
+The course will include one midterm and one final examination. We will require an official photo ID. The midterm
+will take place on Tuesday, November 2, 2010.
+7 Grading Policy:
+The components for the course will be weighted as follows:
+50% Assignments
+20% Midterm
+30% Final examination
+
+8 Academic Honesty:
+Students are not allowed to work together on any of the quizzes. Students are expected to write their own code.
+Students may discuss conceptual issues about the assignments with other students, but may not share code.
+
+Cheating is a dishonest representation of the course work, including but not limited to cheating on exams, fraud-
+ulently presenting lab exercises or assignments by someone else as one’s own, or getting someone else to take the
+
+course. It is a serious academic offense that will not be tolerated. Cheaters can expect to receive a failing grade and
+will be punished according to University regulations.

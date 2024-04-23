@@ -1,0 +1,17 @@
+  Subject: Re: Clarification on Homework Assignments in COMPSCI 295
+
+Dear John,
+
+Thank you for reaching out to me regarding your questions about the homework assignments in COMPSCI 295. I appreciate your eagerness to clarify the requirements for the course.
+
+To answer your first question, the syllabus does provide some guidance on the tools and software that will be used for the coding projects related to concurrent data structures. According to the syllabus, you will be using programming languages and execute on modern processors, and the class will explore tools such as model checkers that can help developers write correct concurrent data structures.
+
+However, I apologize, but the syllabus does not provide specific instructions on the programming languages or frameworks that you are required to use for the homework assignments. The syllabus does mention that you will be exploring lock-free and wait-free data structures, but it does not specify which programming languages or tools you will be using to implement these data structures.
+
+Regarding your second question, the syllabus does not provide specific guidelines or requirements for the homework assignments related to concurrent data structures. However, I can tell you that the assignments will be focused on developing lock-free and wait-free data structures, and you will be expected to submit your code implementations for these data structures.
+
+I hope this information helps clarify things for you. If you have any other questions or concerns, please don't hesitate to reach out to me.
+
+Best regards,
+
+Brian Demsky

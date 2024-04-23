@@ -53,7 +53,7 @@ class DocumentSummarizer:
             return
 
         content = content[:self.max_len]
-        var = self.scheduler.run_llm_agent(msg = self.sysprompt ** self.prompts.loadPrompt("UserPrompt", {'contents' : content}))
+        var = self.scheduler.run_llm_agent(msg = self.sysprompt ** self.prompts.load_prompt("UserPrompt", {'contents' : content}))
         self.scheduler.run_python_agent(writeData, pos=[name, var])
     
 def main():
