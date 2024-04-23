@@ -15,9 +15,9 @@ def writeData(scheduler, name: str, summary: str):
 class DocumentSummarizer:
     def __init__(self):
         self.model = agentgraph.LLMModel("http://127.0.0.1:8000/v1/", os.getenv("OPENAI_API_KEY"), "meta-llama/Llama-2-7b-chat-hf", "meta-llama/Llama-2-7b-chat-hf", 34000, useOpenAI=True)
-        self.scheduler = agentgraph.getRootScheduler(self.model)
+        self.scheduler = agentgraph.get_root_scheduler(self.model)
         self.prompts = agentgraph.Prompts("./documentsummary/prompts/")
-        self.sysprompt = self.prompts.loadPrompt("System")
+        self.sysprompt = self.prompts.load_prompt("System")
     
     def process(self, names: list):
         for name in names:
@@ -41,8 +41,8 @@ class DocumentSummarizer:
                     return
         else:
             return
-        var = self.scheduler.runLLMAgent(msg = self.sysprompt ** self.prompts.loadPrompt("UserPrompt", {'contents' : content}))
-        self.scheduler.runPythonAgent(writeData, pos=[name, var])
+        var = self.scheduler.run_llm_agent(msg = self.sysprompt ** self.prompts.load_prompt("UserPrompt", {'contents' : content}))
+        self.scheduler.run_python_agent(writeData, pos=[name, var])
     
 def main():
     summarizer = DocumentSummarizer()

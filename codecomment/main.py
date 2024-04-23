@@ -14,13 +14,12 @@ def writeData(scheduler, name: str, comments: str):
 class Commenter:
     def __init__(self):
         self.model = agentgraph.LLMModel("https://demskygroupgpt4.openai.azure.com/", os.getenv("OPENAI_API_KEY"), "GPT4-8k", "GPT-32K", 34000)
-        self.scheduler = agentgraph.getRootScheduler(self.model)
+        self.scheduler = agentgraph.get_root_scheduler(self.model)
         self.prompts = agentgraph.Prompts("./codecomment/prompts/")
-        self.sysprompt = self.prompts.loadPrompt("System")
+        self.sysprompt = self.prompts.load_prompt("System")
 
     def process(self, names: list):
         for file in names:
-            print(file)
             self.handleFile(file)
             
     def handleFile(self, name: str):
@@ -34,8 +33,8 @@ class Commenter:
                     pass
         else:
             return
-        var = self.scheduler.runLLMAgent(msg = self.sysprompt ** self.prompts.loadPrompt("UserPrompt", {'contents' : content}))
-        self.scheduler.runPythonAgent(writeData, pos=[name, var])
+        var = self.scheduler.run_llm_agent(msg = self.sysprompt ** self.prompts.load_prompt("UserPrompt", {'contents' : content}))
+        self.scheduler.run_python_agent(writeData, pos=[name, var])
 
 
 def main():

@@ -9,7 +9,7 @@ class Agents:
         self.problem = problem
         self.filestore = agentgraph.FileStore()
         self.model = agentgraph.LLMModel("https://demskygroupgpt4.openai.azure.com/", os.getenv("OPENAI_API_KEY"), "GPT4-8k", "GPT-32K", 34000)
-        self.scheduler = agentgraph.getRootScheduler(self.model)
+        self.scheduler = agentgraph.get_root_scheduler(self.model)
         self.prompts = agentgraph.Prompts("./coder/prompts/")        
         
 class Agent:
@@ -22,19 +22,19 @@ class Agent:
 def test():
     agents = Agents("a command line based full featured scientic calculator in C that supports standard feature including trig functions and parenthesis. The calculator should take the problem instance from the command line. You should compile the program such that it can be executed by typing ./calculator.  For example, ./calculator \"sin(90) + 1\" should print 2. \n ./calculator \"3 * (2 + 4)\" should print 18. \n ./calculator \"1/2\" should print 0.5. ./calculator \"1.5 * 2.0\" should print 3.  ./calculator \"2*(1+3*(2-1))\" should print 8.\n")
     varmap = agentgraph.VarMap()
-    agents.programmer = Agent(agents.prompts.loadPrompt("sysprogrammer.txt"), varmap.mapToNone("programmer"))
-    agents.coach = Agent(agents.prompts.loadPrompt("syscoach.txt"), varmap.mapToNone("coach"))
+    agents.programmer = Agent(agents.prompts.load_prompt("sysprogrammer.txt"), varmap.mapToNone("programmer"))
+    agents.coach = Agent(agents.prompts.load_prompt("syscoach.txt"), varmap.mapToNone("coach"))
     mainloop(agents)
 
 def buildTests(agents: Agents):
     scheduler = agents.scheduler
-    sys = agents.prompts.loadPrompt("testeng.txt")
-    messages = agents.prompts.loadPrompt("testprompt.txt", { 'agentproblem' : agents.problem})
-    outVar = scheduler.runLLMAgent(msg = sys ** messages)
-    scheduler.runPythonAgent(patchFiles, pos=[agents.prompts, outVar, agents.filestore])
+    sys = agents.prompts.load_prompt("testeng.txt")
+    messages = agents.prompts.load_prompt("testprompt.txt", { 'agentproblem' : agents.problem})
+    outVar = scheduler.run_llm_agent(msg = sys ** messages)
+    scheduler.run_python_agent(patchFiles, pos=[agents.prompts, outVar, agents.filestore])
 
 def doTests(agents: Agents):
-    agents.filestore.writeFiles("./testdir/")
+    agents.filestore.write_files("./testdir/")
     testout, passed = runTests(agents)
     if passed == True:
         print("Test passed")
@@ -70,14 +70,14 @@ def runTests(agent:Agents):
 def mainloop(agents):
     # Keep repeating the following
     while True:
-        agents.filestore.waitForAccess()
+        agents.filestore.wait_for_access()
         # Prompt user for input
         message = input("(Q)uit, (C)ompile, (P)rogram, c(R)eate Tests, run (T)est, (D)ump code, (M)anual request: ")
             # Exit program if user inputs "quit"
         if message.lower() == "q":
             break
         elif message.lower() == "c":
-            agents.scheduler.runPythonAgent(compile, pos=[agents.prompts, agents.filestore, agents.coach.conv])
+            agents.scheduler.run_python_agent(compile, pos=[agents.prompts, agents.filestore, agents.coach.conv])
         elif message.lower() == "r":
             buildTests(agents)
         elif message.lower() == "p":
@@ -92,23 +92,23 @@ def mainloop(agents):
     agents.scheduler.shutdown()
 
 def dump(filestore):
-    filestore.writeFiles("./testdir/")
+    filestore.write_files("./testdir/")
     
 def compile(scheduler, prompts, filestore, coachconv):
     output = filehelper(scheduler, filestore)[0]
-    sysbuildprompt = prompts.loadPrompt("sysbuildeng.txt")
-    buildprompt = prompts.loadPrompt("buildeng.txt", {'files': output})
-    outVar = scheduler.runLLMAgent(msg = sysbuildprompt ** buildprompt)
-    patchFiles(scheduler, prompts, outVar.getValue(), filestore)
+    sysbuildprompt = prompts.load_prompt("sysbuildeng.txt")
+    buildprompt = prompts.load_prompt("buildeng.txt", {'files': output})
+    outVar = scheduler.run_llm_agent(msg = sysbuildprompt ** buildprompt)
+    patchFiles(scheduler, prompts, outVar.get_value(), filestore)
     dump(filestore)
     p = subprocess.run(["bash", "compile.sh"], cwd = "./testdir/", capture_output=True)
     print(p)
     if p.returncode == 0:
         return True
 
-    outVar = scheduler.runPythonAgent(filehelper, pos=[filestore], numOuts = 1)
-    outVar = scheduler.runLLMAgent(msg = prompts.loadPrompt("sysprogrammer.txt") ** ~coachconv & outVar & prompts.loadPrompt("compile.txt", {'error': p.stderr.decode()}))
-    scheduler.runPythonAgent(patchFiles, pos=[prompts, outVar, filestore])
+    outVar = scheduler.run_python_agent(filehelper, pos=[filestore], numOuts = 1)
+    outVar = scheduler.run_llm_agent(msg = prompts.load_prompt("sysprogrammer.txt") ** ~coachconv & outVar & prompts.load_prompt("compile.txt", {'error': p.stderr.decode()}))
+    scheduler.run_python_agent(patchFiles, pos=[prompts, outVar, filestore])
     
     return False
 
@@ -121,15 +121,15 @@ def patchFiles(scheduler, prompts, agentOutput: str, fileStore):
         if file in fileStore:
             oldContent = fileStore[file]
             if oldContent != newContent:
-                sysMsg = prompts.loadPrompt("syspatcher.txt")
-                patchMsg = prompts.loadPrompt("patcher.txt", {'file_name': file, 'old_contents': oldContent, 'new_contents': newContent})
+                sysMsg = prompts.load_prompt("syspatcher.txt")
+                patchMsg = prompts.load_prompt("patcher.txt", {'file_name': file, 'old_contents': oldContent, 'new_contents': newContent})
                 patchedContents = agentgraph.Var("Patched")
-                scheduler.runLLMAgent(patchedContents, msg = sysMsg ** patchMsg)
+                scheduler.run_llm_agent(patchedContents, msg = sysMsg ** patchMsg)
                 patchedFiles[file] = patchedContents
         else:
             fileStore[file] = newContent
     for file in patchedFiles:
-        pcontent = patchedFiles[file].getValue()
+        pcontent = patchedFiles[file].get_value()
         pFiles = coder.files.parse_chat(pcontent)
         for pfile, pcontent in pFiles:
             fileStore[pfile] = pcontent
@@ -147,33 +147,33 @@ def doProgram(agents, errorvar):
     coach = agents.coach
     prompt = agents.problem
     # get files contents
-    fsvar = agents.scheduler.runPythonAgent(filehelper, pos=[agents.filestore])
+    fsvar = agents.scheduler.run_python_agent(filehelper, pos=[agents.filestore])
     
     # query programmer to fix
-    programmer.var = agents.scheduler.runLLMAgent(msg = programmer.prompt ** ~coach.conv & fsvar + errorvar)
+    programmer.var = agents.scheduler.run_llm_agent(msg = programmer.prompt ** ~coach.conv & fsvar + errorvar)
 
     # Update filestore
-    agents.scheduler.runPythonAgent(patchFiles, pos=[agents.prompts, agents.programmer.var, agents.filestore])
+    agents.scheduler.run_python_agent(patchFiles, pos=[agents.prompts, agents.programmer.var, agents.filestore])
 
 
 def doCoachProgram(agents):
     filestore = agents.filestore
     programmer = agents.programmer
     coach = agents.coach
-    prompt = agents.prompts.loadPrompt("coach.txt", {'problem':agents.problem})
+    prompt = agents.prompts.load_prompt("coach.txt", {'problem':agents.problem})
     # get files
-    outvar = agents.scheduler.runPythonAgent(filehelper, pos=[agents.filestore], out=[agentgraph.VarType])
+    outvar = agents.scheduler.run_python_agent(filehelper, pos=[agents.filestore], out=[agentgraph.VarType])
     
     # coach
-    coach.var = agents.scheduler.runLLMAgent(conversation = coach.conv, msg = coach.conv > (coach.prompt ** prompt & ~coach.conv & outvar) | coach.prompt ** prompt)
+    coach.var = agents.scheduler.run_llm_agent(conversation = coach.conv, msg = coach.conv > (coach.prompt ** prompt & ~coach.conv & outvar) | coach.prompt ** prompt)
 
     # programmer
-    programmer.var = agents.scheduler.runLLMAgent(conversation = programmer.conv, msg = programmer.conv > (programmer.prompt ** ~coach.conv[:-1] & outvar & coach.var | programmer.prompt ** coach.var))
+    programmer.var = agents.scheduler.run_llm_agent(conversation = programmer.conv, msg = programmer.conv > (programmer.prompt ** ~coach.conv[:-1] & outvar & coach.var | programmer.prompt ** coach.var))
 
-    print(programmer.var.getValue())
+    print(programmer.var.get_value())
 
     # Update filestore
-    agents.scheduler.runPythonAgent(patchFiles, pos=[agents.prompts, agents.programmer.var, agents.filestore])
+    agents.scheduler.run_python_agent(patchFiles, pos=[agents.prompts, agents.programmer.var, agents.filestore])
 
 if __name__ == "__main__":
     test()

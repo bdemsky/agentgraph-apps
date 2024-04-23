@@ -15,10 +15,10 @@ def writeData(scheduler, name: str, comments: str):
 class Responder:
     def __init__(self):
         self.model = agentgraph.LLMModel("http://127.0.0.1:8000/v1/", os.getenv("OPENAI_API_KEY"), "meta-llama/Llama-2-7b-chat-hf", "meta-llama/Llama-2-7b-chat-hf", 34000, useOpenAI=True)
-        self.scheduler = agentgraph.getRootScheduler(self.model)
+        self.scheduler = agentgraph.get_root_scheduler(self.model)
         self.prompts = agentgraph.Prompts("./emailresponse/prompts/")
-        self.sysprompt1 = self.prompts.loadPrompt("System1")
-        self.sysprompt2 = self.prompts.loadPrompt("System2")
+        self.sysprompt1 = self.prompts.load_prompt("System1")
+        self.sysprompt2 = self.prompts.load_prompt("System2")
         self.syllabi = dict()
 
     def process(self, names: list):
@@ -65,9 +65,9 @@ class Responder:
         else:
             return
         
-        var = self.scheduler.runLLMAgent(msg = self.sysprompt1 ** self.prompts.loadPrompt("UserPrompt1", {'contents' : content, 'courses':self.syllabi.keys()}))
+        var = self.scheduler.run_llm_agent(msg = self.sysprompt1 ** self.prompts.load_prompt("UserPrompt1", {'contents' : content, 'courses':self.syllabi.keys()}))
         
-        split_at_course = course = var.getValue().strip().split('*')
+        split_at_course = course = var.get_value().strip().split('*')
         if len(split_at_course) < 2:
             print("Unable to parse course name for", name, "from LLM response")
             course = "unknown"
@@ -79,8 +79,8 @@ class Responder:
                 syllabus = "unknown"
             else:
                 syllabus = self.syllabi[course]
-        var2 = self.scheduler.runLLMAgent(msg = self.sysprompt2 ** self.prompts.loadPrompt("UserPrompt2", {'contents' : content, 'course':course, 'syllabus': syllabus}))
-        self.scheduler.runPythonAgent(writeData, pos=[name, var2])
+        var2 = self.scheduler.run_llm_agent(msg = self.sysprompt2 ** self.prompts.load_prompt("UserPrompt2", {'contents' : content, 'course':course, 'syllabus': syllabus}))
+        self.scheduler.run_python_agent(writeData, pos=[name, var2])
 
 
 def main():

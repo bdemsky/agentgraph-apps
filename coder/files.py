@@ -68,13 +68,13 @@ def to_files(agents: Agents, chat: str, workspace: agentgraph.FileStore):
         else:
             varmap = agentgraph.VarMap()
             ovarA = agentgraph.Var("Response")
-            syspatcher = agents.prompts.loadPrompt("syspatcher.txt")
-            patcher = agents.prompts.loadPrompt("patcher.txt")
-            agent = agentgraph.createLLMAgent(agents.model, None, ovarA, msg = syspatcher > patcher)
+            syspatcher = agents.prompts.load_prompt("syspatcher.txt")
+            patcher = agents.prompts.load_prompt("patcher.txt")
+            agent = agentgraph.create_llm_agent(agents.model, None, ovarA, msg = syspatcher > patcher)
             agents.scheduler.addTask(agent, varmap)
             responses.append(ovarA)
 
     for var in responses:
-        response = agents.scheduler.readVariable(var)
+        response = agents.scheduler.read_variable(var)
         for rfile, patched_contents in parse_chat(response):
             workspace[rfile] = patched_contents
