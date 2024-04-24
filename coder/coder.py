@@ -22,8 +22,8 @@ class Agent:
 def test():
     agents = Agents("a command line based full featured scientic calculator in C that supports standard feature including trig functions and parenthesis. The calculator should take the problem instance from the command line. You should compile the program such that it can be executed by typing ./calculator.  For example, ./calculator \"sin(90) + 1\" should print 2. \n ./calculator \"3 * (2 + 4)\" should print 18. \n ./calculator \"1/2\" should print 0.5. ./calculator \"1.5 * 2.0\" should print 3.  ./calculator \"2*(1+3*(2-1))\" should print 8.\n")
     varmap = agentgraph.VarMap()
-    agents.programmer = Agent(agents.prompts.load_prompt("sysprogrammer.txt"), varmap.mapToNone("programmer"))
-    agents.coach = Agent(agents.prompts.load_prompt("syscoach.txt"), varmap.mapToNone("coach"))
+    agents.programmer = Agent(agents.prompts.load_prompt("sysprogrammer.txt"), varmap.map_to_none("programmer"))
+    agents.coach = Agent(agents.prompts.load_prompt("syscoach.txt"), varmap.map_to_none("coach"))
     mainloop(agents)
 
 def buildTests(agents: Agents):

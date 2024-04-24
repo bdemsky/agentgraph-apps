@@ -71,7 +71,7 @@ def to_files(agents: Agents, chat: str, workspace: agentgraph.FileStore):
             syspatcher = agents.prompts.load_prompt("syspatcher.txt")
             patcher = agents.prompts.load_prompt("patcher.txt")
             agent = agentgraph.create_llm_agent(agents.model, None, ovarA, msg = syspatcher > patcher)
-            agents.scheduler.addTask(agent, varmap)
+            agents.scheduler.add_task(agent, varmap)
             responses.append(ovarA)
 
     for var in responses:
