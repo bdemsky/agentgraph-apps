@@ -23,7 +23,7 @@ class Generator:
     def process(self, num_emails: int):
         for i, syllabus in enumerate(self.syllabi):
             for j in range(1, num_emails+1):
-                self.generateEmail(syllabus, "question" + str(25 + i * num_emails + j))
+                self.generateEmail(syllabus, "question" + str(i * num_emails + j))
        
     def loadSyllabi(self, name: str):
         filename = Path(name)
@@ -46,12 +46,11 @@ class Generator:
         self.scheduler.run_python_agent(writeData, pos=[name, email])
 
 def main():
-    agentgraph.config.DEBUG_PATH=None
     model = agentgraph.LLMModel("http://127.0.0.1:8000/v1/", os.getenv("OPENAI_API_KEY"), "meta-llama/Llama-2-7b-chat-hf", "meta-llama/Llama-2-7b-chat-hf", 34000, useOpenAI=True)
+    file = sys.argv[1]
+    num_emails = int(sys.argv[2]) if len(sys.argv) > 1 else 25
 
     g = Generator(model)
-    file = sys.argv[1]
-    num_emails = int(sys.argv[2])
     g.loadSyllabi(file)
     g.process(num_emails)
     g.scheduler.shutdown()

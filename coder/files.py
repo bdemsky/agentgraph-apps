@@ -1,6 +1,6 @@
 import re
 import agentgraph
-from coder.coder import Agents
+from coder import Agents
 from typing import List, Tuple
 
 def parse_chat(chat: str) -> List[Tuple[str, str]]:

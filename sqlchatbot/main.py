@@ -120,8 +120,8 @@ class SQLChatbot:
            
 def main():
     parser = argparse.ArgumentParser(
-                    prog="SQLGen",
-                    description="A program that generates SQL queries based on table schemas to answer user questions"
+                    prog="SQL Chatbot",
+                    description="A chatbot that answers user questions by querying SQL databases"
              )
     parser.add_argument("dataset_path", 
                         help="path to the dataset")
